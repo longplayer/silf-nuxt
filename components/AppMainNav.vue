@@ -28,7 +28,7 @@
           <NuxtLink to="/photorealism">Photorealism</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/sculpture">Sculptures</NuxtLink>
+          <NuxtLink to="/sculptures">Sculptures</NuxtLink>
         </li>
         <li>
           <NuxtLink to="/poetic">Poetic Art</NuxtLink>

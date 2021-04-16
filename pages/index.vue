@@ -6,7 +6,12 @@
       <div class="logo-box">
         <Logo />
         <div class="fb-box">
-          <img src="~/assets/img/fb-default.png" alt="Facebook logo" title="Visit our Facebook page" class="logo-w"/>
+          <img
+            src="~/assets/img/fb-default.png"
+            alt="Facebook logo"
+            title="Visit our Facebook page"
+            class="logo-w"
+          />
         </div>
       </div>
       <a href="news" class="uppercase text-gray-400">Enter</a>
@@ -15,12 +20,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  layout: "home"
+};
 </script>
 
 <style lang="postcss" scoped>
 .container {
-  background-image: url('~/assets/img/introback.jpg');
+  background-image: url("~/assets/img/introback.jpg");
   @apply m-0 bg-center bg-cover bg-no-repeat w-full min-w-full justify-end;
 }
 
