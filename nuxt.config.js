@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'silf-nuxt',
+    title: 'Christian Silvain - Foundation',
     htmlAttrs: {
       lang: 'en'
     },
@@ -41,5 +41,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  tailwindcss: {
+    cssPath: '~/assets/styles/tailwind.css',
+    // jit: false,
+    // exposeConfig: true,
   }
 }
