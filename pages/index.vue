@@ -1,28 +1,15 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        silf-nuxt
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+    <div class="content">
+      <h1 class="title">CHIRSTIAN SILVAIN</h1>
+      <h2 class="sub-title">Foundation</h2>
+      <div class="logo-box">
+        <Logo />
+        <div class="fb-box">
+          <img src="~/assets/img/fb-default.png" alt="Facebook logo" title="Visit our Facebook page" class="logo-w"/>
+        </div>
       </div>
+      <a href="news" class="uppercase text-gray-400">Enter</a>
     </div>
   </div>
 </template>
@@ -31,48 +18,37 @@
 export default {}
 </script>
 
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
+<style lang="postcss" scoped>
 .container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
+  background-image: url('~/assets/img/introback.jpg');
+  @apply m-0 bg-center bg-cover bg-no-repeat w-full min-w-full justify-end;
 }
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+
+.content {
+  width: 240px;
+  transform: translate(-100%, 0);
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+  @apply text-2xl text-white;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+.sub-title {
+  @apply text-xl text-gray-400 uppercase;
 }
 
-.links {
-  padding-top: 15px;
+.logo-box {
+  @apply relative;
+}
+
+.fb-box {
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  @apply absolute;
+}
+
+.app-logo {
+  @apply w-full;
 }
 </style>
