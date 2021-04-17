@@ -4,120 +4,159 @@ title: Biblography
 
 ## PUBLICATIONS MENTIONED IN SECTIONS 4 TO 9
 **93**
+
 *"Das Kunstschaffen in der Deutschsprachigen Gemeinschaft"*; N. Kreusch. In: Exhibition catalogue 93; European Community; Brussels; 9 September - 3 December 1993.
 
 **Arlecchino**
+
 *"Christian Silvain"*. In: Book Arlecchino senza mantello; Ruggero Campagnoli, Marc Quaghebeur; Panozzo Editore; Rimini; 1993, p.170/171.
 
 **Art et Antiquités du Nord**
+
 *"Les métamorphoses de Christian Silvain, à Mouscron"*; FR, NL; C. Tardif. In: Magazine Kunst en antiek; no. 5; Roubaix; December 1997; p.13/14.
 
 **BP 88**
+
 Exhibition catalogue *Christian Silvain*; BP Gallery; Antwerp; 7 - 28 May 1988.
 
 **Brochure Belgisches Haus Cologne**
+
 Brochure* Werke aus der Stiftung Christian Silvain*; N. Kreusch; Eupen; no date.
 
 **Cadier en Keer**
+
 *"Christian Silvain"*. In: Exhibition catalogue Met België; on the occasion of the exhibition *"Ontmoetingen met België"*; De Keerder Kunstkamer; Cadier en Keer; 2 July - 26 August 1989; p.38.
 
 **Calendar 92**
+
 Calendar 92; Guy Pieters Gallery; Sint-Martens-Latem; 1992.
 
 **Calendar 97**
+
 Calendar 97; Antilope; 1997.
 
 **Calendar Nordstern**
+
 Nordstern insurance; no date.
 
 **Confrontations**
+
 Artwork *"A comme accept"*. In: Confrontations, 111 Contemporary Artists; EN, NL, FR; Prof. M. Van Jole, F. Dumont, J. Pas, J.-P. Schneider; 111 Contemporary artists - 111 Hedendaagse Kunstenaars - 111 Artistes contemporains; Tielt; 1993.
 
 **C. Silvain**
+
 Exhibition catalogue *C. Silvain*; Guy Pieters Gallery; Knokke; 27 October - 19 November 1990.
 
 **Demeures et Châteaux**
+
 *"Christian Silvain"*. In: Magazine Demeures et châteaux; no. 95; Paris; December 1996 - January 1997; p.51.
 
 **DG BH Cologne**
+
 Different artworks. In: Exhibition catalogue *Künstler der Deutschsprachigen Gemeinschaft: André Blank, Adolf Christmann, Olga Collard Bovy-Petit, Roger Greisch, Antonio Maro, Christian Silvain*; Belgisches Haus; Cologne;16 December 1983 - 14 January 1984.
 
 **Ensor**
+
 *"Christian Silvain"*. In: Exhibition catalogue Huldetentoonstelling Ensor nodigt uit; Casino Kursaal; Ostend; 31 March - 28 April 1985.
 
 **Enzinck**
+
 Monograph *Christian Silvain*; W. Enzinck; Kruishoutem; no date.
 
 **Façades**
+
 Monograph *C. Silvain, Façades*; Prof. M. Van Jole; Editions d'Art Poseidon; Knokke; 1984.
 
 **Fassaden To Mathieu**
+
 Monograph *Christian Silvain*; Wetteren; no further information.
 
 **Fondation**
+
 Monograph *Fondation Christian Silvain*; FR, NL, DE; A. Küchenberg, N. Kreusch, Baron S. Le Bailly de Tilleghem, G. Pieters, A. Radermecker; Eupen; 1995.
 
 **Galerie du Centre 90**
+
 Exhibition catalogue *Christian Silvain*; A. Parinaud; Galerie du Centre; Paris; 5 April - 26 May 1990.
 
 **Galerie du Centre 92**
+
 Exhibition catalogue *C. Silvain*; L. Danchin; Galerie du Centre, Paris, 9 April - 16 May 1992; La Galerie des 4 Coins, Roanne, 10 April - 16 May 1992.
 
 **Grand catalogue**
+
 Monograph *Silvain*; W. Becker, M. Gaudet, V. Hammock, N. Kreusch, C. Silvain, Prof. M. Van Jole (editor), G. Xuriguera; Grenz Echo Verlag, Eupen; lannoo, Tielt; 1997.
 
 **Grenz Echo**
+
 Monograph *Christian Silvain*; Dr. H. Barthelt, P. de Pessemier, J. Ponceau, Prof. M. Van Jole; Grenz Echo Verlag; Eupen; 1989.
 
 **Kluisbergen**
+
 *"Christian Silvain : kunstenaar met wereldfaam"*; C. Liviau. In: Magazine *Kluisbergen*; volume 29, no. 340; Kluisbergen; no date; p.20/21.
 
 **Lions Seraing**
+
 *"Silvain Christian*". In: Exhibition catalogue *15e Anniversaire Lions Club Seraing*; Lions Club Seraing; Liège; 4 - 12 April 1990; p.54.
 
 **Loterie Nationale**
+
 *"Silvain Christian"*; DE, FR, NL. In: Exhibition catalogue *Kunst und Museen in der Deutschsprachigen Gemeinschaft, eine Auswahl*; Loterie Nationale; Brussels; 16 February - 8 March 1990.
 
 **Md'Hetd'A**
+
 *"Facades in het oeuvre van Christian Silvain"*; NL, FR; P. de Pessemier. In: Magazine *De Woonstede door de eeuwen heen*; trimester 2, no. 74; Ayeneux; 1987; p.46-67.
 
 **Memories**
+
 Exhibition catalogue *Silvain, Memories, Ein Poet, kein Träumer*; R. Wolf; Gallery Weihergut; Salzburg; no date.
 
 **Ons Brussel**
+
 Artwork *"De twee vriendinnen"*. In: Magazine ons *Brussel*; Vlaamse Club voor Kunsten, Wetenschappen en Letteren; volume 2, no. 11; Brussels; November 1981; cover, front.
 
 **Recent Works**
+
 Monograph *Christian Silvain, Recent works*; Poseidon Art Gallery; Knokke; no date.
 
 **Schilderijenkroniek**
+
 Exhibition catalogue *"Christian Silvain"*; W. Enzinck. In: schilderijenkroniek met latems kunstleven; Latems Museum voor moderne Kunsten; volume 4, no. 4; Sint-Martens-Latem; April 1979.
 
 **Scope RTL 87**
+
 *"Christian Silvain, La réalité pour alibi"*; C. David. In: Book *Scope RTL 87*; Snoeck-Ducaju en Zoon; volume 63; 1987; p.465-469.
 
 **Sevilla**
+
 Mentioned by name. In: Exhibition catalogue *Les irréguliers du langage*; Casa Museo Murillo; Sevilla; 24 September - 29 November 1992.
 
 **Silvain New York**
+
 Exhibition catalogue *Silvain, New York, The Fine Art of the Child*; G. Henry; Franklin Bowles Gallery; New York; 1998.
 
 **Silvain Paris**
+
 Exhibition catalogue *Silvain, Paris*; Galerie du Centre; Paris; no date.
 
 **Skulpturen und Gemälde**
+
 Exhibition catalogue *Silvain, Skulpturen und Gemälde*; N. Kreusch; Kunstkabinett, Regensburg; Fischerplatz Galerie, Ulm; 26 August - 30 September 1994.
 
 **Snoeks 87**
+
 *"Christian Silvain, De realiteit als alibi"*; C. David. In: Book *Snoeks 87*; Snoeck-Ducaju en Zoon; volume 63; 1987; p.495-499.
 
 **Supplement calendar**
+
 Supplement to the Nordstern calendar *Christian Silvain*; A. Küchenberg, Baron S. Le Bailly de Tilleghem, A. Radermecker, C. Silvain, Prof. M. Van Jole; Guy Pieters Gallery; no date.
 
 **Tableau Magazine**
+
 *"Je suis un bricoleur"*; H. Bier. In: Fine Arts Tableau Magazine; volume 16, no. 6; Haastrecht; 1994; p.54-57.
 
 **Tekeningen**
+
 Monograph *Tekeningen van Christian Silvain*; J. Murez; Art Editions; Ghent; 1978
 
 
