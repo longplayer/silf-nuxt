@@ -19,11 +19,13 @@
 <style lang="postcss" scoped>
 /* layout */
 .app-page {
-  @apply grid;
+  transform: translate(0, 10vh);
+  @apply container mx-auto grid border border-gray-900;
   grid-template-columns: 220px 4fr;
+  grid-template-rows: 80px 3fr;
 
   & .app-main-nav {
-    background-color: royalblue;
+    @apply bg-gray-700 text-gray-200;
     @apply row-span-3;
   }
 
@@ -48,7 +50,7 @@ header {
   }
 
   & h2 {
-    @apply font-light;
+    @apply font-light text-gray-200;
   }
 }
 </style>

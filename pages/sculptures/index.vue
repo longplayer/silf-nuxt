@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Sculptures</h1>
+    <h1 class="page-title">Sculptures</h1>
     <!-- <nuxt-content :document="page" /> -->
   </div>
 </template>

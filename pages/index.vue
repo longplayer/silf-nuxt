@@ -14,7 +14,7 @@
           />
         </div>
       </div>
-      <a href="news" class="uppercase text-gray-400">Enter</a>
+      <NuxtLink :to="'/news'" class="enter-site">Enter</NuxtLink>
     </div>
   </div>
 </template>
@@ -28,7 +28,7 @@ export default {
 <style lang="postcss" scoped>
 .container {
   background-image: url("~/assets/img/introback.jpg");
-  @apply m-0 bg-center bg-cover bg-no-repeat w-full min-w-full justify-end;
+  @apply m-0 bg-center bg-cover bg-no-repeat w-full min-w-full text-center justify-end items-center;
 }
 
 .content {
@@ -45,7 +45,7 @@ export default {
 }
 
 .logo-box {
-  @apply relative;
+  @apply relative my-2;
 }
 
 .fb-box {
@@ -57,5 +57,12 @@ export default {
 
 .app-logo {
   @apply w-full;
+}
+.enter-site {
+  @apply uppercase text-gray-400;
+
+  &:hover {
+    @apply text-gray-200;
+  }
 }
 </style>

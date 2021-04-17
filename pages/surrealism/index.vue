@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Surrealism</h1>
+    <h1 class="page-title">Surrealism</h1>
     <!-- <nuxt-content :document="page" /> -->
   </div>
 </template>

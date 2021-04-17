@@ -35,7 +35,6 @@ export default {
 <style>
 .app-logo {
   animation: 1s appear;
-  margin: auto;
 }
 
 @keyframes appear {

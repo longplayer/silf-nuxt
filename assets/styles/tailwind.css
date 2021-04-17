@@ -3,7 +3,7 @@
 @import "tailwindcss/utilities";
 
 @layer base {
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap");
 
   html {
     font-size: 16px;
@@ -16,35 +16,37 @@
   }
 
   body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
+    background-color: #111820;
   }
 }
-
 
 @layer components {
   .container {
-    margin: 0 auto;
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* @apply min-h-screen flex justify-center items-center text-center mx-auto; */
+    @apply flex mt-0 my-auto;
+  }
+
+  .page-content .container {
+    @apply flex-wrap w-full min-h-0 p-16;
   }
 }
 
+/* NUXT CONTENT */
 .nuxt-content {
   @apply break-words text-left;
 
-  & h2, & h3 {
+  & h1,
+  & h2,
+  & h3 {
+    @apply font-bold tracking-wide pb-4;
+
     /* Fix anchor scrollTo */
     &::before {
-      display: block;
       content: " ";
-      margin-top: -85px;
-      height: 85px;
       visibility: hidden;
       pointer-events: none;
+      @apply block;
     }
 
     /* Style anchor links on headings added by @nuxt/content */
@@ -53,7 +55,7 @@
 
       &::before {
         content: "#";
-        @apply text-gray-500 font-normal text-xl leading-8 -ml-5 pr-2 absolute opacity-100;
+        @apply text-gray-500 font-normal text-xl leading-6 -ml-5 pr-2 absolute opacity-100;
       }
 
       @screen lg {
@@ -69,6 +71,35 @@
         @apply opacity-100;
       }
     }
+  }
+
+  & h1,
+  & h2 {
+    &::before {
+      @apply h-10;
+    }
+  }
+
+  & h3 {
+    &::before {
+      @apply h-4;
+    }
+  }
+
+  /* Force style on pre elements */
+  & pre[class*="language-"] {
+    /* Make pre static so the relative goes to the parent (.nuxt-content-highlight) */
+    @apply bg-gray-800 static;
+  }
+
+  & ul {
+    & li {
+      @apply pb-2;
+    }
+  }
+
+  & p {
+    @apply text-justify;
   }
 
   & .nuxt-content-highlight {
@@ -102,10 +133,8 @@
       }
     }
   }
+}
 
-  /* Force style on pre elements */
-  & pre[class*="language-"] {
-    /* Make pre static so the relative goes to the parent (.nuxt-content-highlight) */
-    @apply bg-gray-800 static;
-  }
+.page-title {
+  @apply text-2xl uppercase tracking-wide w-full flex-auto;
 }

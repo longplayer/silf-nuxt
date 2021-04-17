@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Latest Aquisitions</h1>
+    <h1 class="page-title">Latest Aquisitions</h1>
     <!-- <nuxt-content :document="page" /> -->
   </div>
 </template>

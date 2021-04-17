@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>News</h1>
+    <h1 class="page-title">News</h1>
     <nuxt-content :document="page" />
   </div>
 </template>
@@ -15,9 +15,3 @@ export default {
   }
 };
 </script>
-
-<style lang="postcss" scoped>
-.container {
-  @apply flex-wrap w-full;
-}
-</style>

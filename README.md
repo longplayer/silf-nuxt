@@ -18,3 +18,42 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Snippets
+
+```js
+// Used to recover original data from website (http://www.silvain.org/)
+// Open an artworklist page an paste this code to the browser's console
+function getArtworksData() {
+    var res = [];
+    $('.SSSlide.clip_frame').each(function(i,e){
+        var image = e.querySelector('img');
+        var caption = $('.SSSlideCaption')[i];
+        var data = {
+            image: image.dataset.src.split('?')[0].replace('http://www.silvain.org', ''),
+            width: parseInt(image.dataset.width),
+            height: parseInt(image.dataset.height),
+            title: caption.querySelector('p').innerText,
+            description: (function(){
+                var d = '';
+                caption.querySelectorAll('p').forEach(function(e,i,a){
+                    if (i > 0 && e.innerText.length > 1) d += e.innerText;
+                    if (i < (a.length-1)) d+= '<br/>';
+                });
+                return d;
+            })(),
+        };
+
+        res.push(data);
+    });
+    return res;
+}
+
+// get data from page's DOM
+var a = getArtworksData();
+
+// export response to the clipboard
+copy(a);
+
+// now just paste to a new json document file ;)
+```

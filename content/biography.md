@@ -58,21 +58,21 @@ In the early 80s, a new artistic phase sets it. It is the era of the  “façade
 Birth of his son Mathieu. Around 1987, the graffiti façades make room for very poetic paintings, inspired by drawings made by autistic children and mentally handicapped adults, whom he visits regularly in specialised institutions.
 
 # 1984:
-His adoptive father Alphonse Faymonville passes away.
+His adoptive father Alphonse Faymonville passes away.<br/><br/>
 
-From this time on, he breaks with Maria, his mother, whom he will never meet again.
+From this time on, he breaks with Maria, his mother, whom he will never meet again.<br/><br/>
 
-Numerous exhibitions all over the world.
+Numerous exhibitions all over the world.<br/><br/>
 
-Many musea in Belgium and abroad purchase his work.
+Many musea in Belgium and abroad purchase his work.<br/><br/>
 
-The Ludwig Museum in Germany dedicates an exhibition to his series of paintings “the prisoners”, with catalogue in 1988. 11 of Silvain’s paintings are purchased by the Ludwig Museum.
+The Ludwig Museum in Germany dedicates an exhibition to his series of paintings “the prisoners”, with catalogue in 1988. 11 of Silvain’s paintings are purchased by the Ludwig Museum.<br/><br/>
 
-In the early years 2000, Jos Depypere becomes his new agent. As from 2002 Silvain makes paintings with one or more large figures in the middle, with black acryl paint, then white, later blue and then also in scarlet red ink. An imagined mother, a Mickey Mouse, a huge rabbit, an elephant. The background is filled with the most diverse objects, broken toys, aeroplanes, knives…
+In the early years 2000, Jos Depypere becomes his new agent. As from 2002 Silvain makes paintings with one or more large figures in the middle, with black acryl paint, then white, later blue and then also in scarlet red ink. An imagined mother, a Mickey Mouse, a huge rabbit, an elephant. The background is filled with the most diverse objects, broken toys, aeroplanes, knives...<br/><br/>
 
-In between, short sentences, sometimes shocking, sometimes disillusioned poetry or words that keep coming back “mutti” “rien” “peur”...
+In between, short sentences, sometimes shocking, sometimes disillusioned poetry or words that keep coming back “mutti” “rien” “peur”...<br/><br/>
 
 Until today, some thirty books and catalogues of Silvain’s work have been publised.
-The Silvain Foundation was established in 1992 and owns 475 pieces, from childhood until today.
+The Silvain Foundation was established in 1992 and owns 475 pieces, from childhood until today.<br/><br/>
 
 He has a special love for the work of Chagall,  Alechinsky and his spiritual father Paul Delvaux. Silvain lives in Kluisbergen (Belgium) with his partner Liselot and works 10 to 12 hours a day, well aware that time will be too short to tell us everything...
