@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1 class="page-title">Surrealism</h1>
-    <!-- <nuxt-content :document="page" /> -->
+    <viewer :dataSourceURL="'/data/surrealism.json'"></viewer>
   </div>
 </template>
 

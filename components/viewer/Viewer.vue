@@ -1,10 +1,7 @@
 <template>
   <div class="app-viewer">
-    <!-- <img :src="require('@/assets/img/artworks/gra100-crop-u24458988d.jpg')" /> -->
-    <!-- <img :src="require('@/assets/img/artworks/gra100-crop-u24458988d.jpg')" /> -->
-
     <!-- grid -->
-    <div class="app-viewer--grid" v-if="list.length">
+    <div class="app-viewer--grid" v-if="isLoaded">
       <div class="app-viewer--item" v-for="(item, index) in list" :key="index">
         <a
           href="#"
@@ -42,18 +39,10 @@
 <script>
 export default {
   props: {
-    dataSource: {
-      type: Array
-    },
-    filename: {
-      type: String,
-      default: "gra100-crop-u24458988d.jpg"
+    dataSourceURL: {
+      type: String
     }
   },
-
-  // async asyncData(context) {
-  //   console.log(context);
-  // },
 
   data() {
     return {
@@ -63,61 +52,18 @@ export default {
     };
   },
 
+  async fetch() {
+    this.list = await this.$axios.$get(this.dataSourceURL).then(res => {
+      this.isLoaded = true;
+      this.showItem(0, res);
+      return res;
+    });
+  },
+
   methods: {
     showItem(index, list) {
-      console.log(
-        typeof this.list === "undefined"
-          ? "LIST IS UNKNOW"
-          : "this.list exists",
-        list,
-        index
-      );
       this.activeData = list[index];
     }
-    // updateImagePath: function(path) {
-    //   console.log(path);
-    //   // return require(path);
-    // },
-    // updateArrayItems: array => {
-    //   let a = [];
-    //   array.forEach((item, i) => {
-    //     console.log(item.thumb);
-    //     this.updateImagePath(item.thumb);
-    //     // item.thumb = this.updateImagePath(item.thumb);
-    //     // item.image = this.updateImagePath(item.image);
-    //   });
-    // },
-    // imgUrl: path => {
-    //   console.log(path, images("./" + path));
-    //   // return images("./" + path);
-    // }
-  },
-
-  watch: {
-    dataSource() {
-      console.log(">>WATCH", this.dataSource, this.list);
-
-      // update 'list' once
-      if (!this.isLoaded) {
-        console.log(">>DATA LOADED");
-        this.list = this.dataSource;
-        this.isLoaded = true;
-        this.showItem(0, this.list);
-      }
-
-      // add reuire to load images
-      // this.list.forEach((item, i) => {
-      //   item.thumb = () => require(item.thumb);
-      //   item.image = () => require(item.image);
-      // });
-    }
-  },
-
-  mounted() {
-    console.log(">>MOUNTED", this.list.length);
-    // const path = "assets/img/artworks/gra48.jpg";
-
-    // return require(path);
   }
 };
 </script>

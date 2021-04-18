@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1 class="page-title">Photorealism</h1>
-    <!-- <nuxt-content :document="page" /> -->
+    <viewer :dataSourceURL="'/data/photorealism.json'"></viewer>
   </div>
 </template>
 

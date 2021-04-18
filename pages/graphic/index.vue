@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1 class="page-title">Graphic Art</h1>
-    <!-- <nuxt-content :document="page" /> -->
+    <viewer :dataSourceURL="'/data/graphic.json'"></viewer>
   </div>
 </template>
 

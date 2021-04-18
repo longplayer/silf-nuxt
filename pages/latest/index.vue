@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1 class="page-title">Latest Aquisitions</h1>
-    <!-- <nuxt-content :document="page" /> -->
+    <viewer :dataSourceURL="'/data/latest.json'"></viewer>
   </div>
 </template>
 
