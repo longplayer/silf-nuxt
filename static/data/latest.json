@@ -1,104 +1,119 @@
 [
   {
-    "image": "images/l10.jpg",
+    "image": "l10.jpg",
+    "thumb": "l10-crop-u32382.jpg",
     "width": 385,
     "height": 405,
     "title": "NO TITLE",
     "description": "120 x 125; 1974"
   },
   {
-    "image": "images/l1.jpg",
+    "image": "l1.jpg",
+    "thumb": "l1-crop-u32149.jpg",
     "width": 385,
     "height": 405,
     "title": "CYBERFROSCH",
     "description": "70 x 170; 2009"
   },
   {
-    "image": "images/l2.jpg",
+    "image": "l2.jpg",
+    "thumb": "l2-crop-u32263.jpg",
     "width": 385,
     "height": 405,
     "title": "FLYING MUTTI",
     "description": "70 x 80; 2009"
   },
   {
-    "image": "images/l3.jpg",
+    "image": "l3.jpg",
+    "thumb": "l3-crop-u32272.jpg",
     "width": 385,
     "height": 405,
     "title": "LE CRI-CRI QU’ON RIT DE LUI",
-    "description": "170 x 170; 2009<br/>"
+    "description": "170 x 170; 2009"
   },
   {
-    "image": "images/l4.jpg",
+    "image": "l4.jpg",
+    "thumb": "l4-crop-u32281.jpg",
     "width": 385,
     "height": 405,
     "title": "NEVER SOLD LOVE",
     "description": "100 x 120; 2010"
   },
   {
-    "image": "images/l5.jpg",
+    "image": "l5.jpg",
+    "thumb": "l5-crop-u32290.jpg",
     "width": 385,
     "height": 405,
     "title": "NO TITLE",
     "description": "60 x 60; 2010"
   },
   {
-    "image": "images/l6.jpg",
+    "image": "l6.jpg",
+    "thumb": "l6-crop-u32299.jpg",
     "width": 385,
     "height": 405,
     "title": "CARESSE MOI",
     "description": "170 x 170; 2012"
   },
   {
-    "image": "images/l7.jpg",
+    "image": "l7.jpg",
+    "thumb": "l7-crop-u32308.jpg",
     "width": 385,
     "height": 405,
     "title": "LES JOUETS DE DOULEUR",
     "description": "150 x 120; 2014"
   },
   {
-    "image": "images/l8.jpg",
+    "image": "l8.jpg",
+    "thumb": "l8-crop-u32317.jpg",
     "width": 385,
     "height": 405,
     "title": "DES PAS DANS LA NEIGE D'ÉTÉ",
     "description": "50 x 50; 2015"
   },
   {
-    "image": "images/l9.jpg",
+    "image": "l9.jpg",
+    "thumb": "l9-crop-u32326.jpg",
     "width": 385,
     "height": 405,
     "title": "AVANT DE PARTIR",
     "description": "50 x 50; 2015"
   },
   {
-    "image": "images/l11.jpg",
+    "image": "l11.jpg",
+    "thumb": "l11-crop-u32503.jpg",
     "width": 385,
     "height": 405,
     "title": "La maison de Spa",
     "description": "80 x 80; 2015"
   },
   {
-    "image": "images/l12.jpg",
+    "image": "l12.jpg",
+    "thumb": "l12-crop-u32512.jpg",
     "width": 385,
     "height": 405,
     "title": "NO TITLE",
     "description": "100 x 100 x 50"
   },
   {
-    "image": "images/l13.jpg",
+    "image": "l13.jpg",
+    "thumb": "l13-crop-u32521.jpg",
     "width": 385,
     "height": 405,
     "title": "2 BROERS",
     "description": "50 x 50 x 53"
   },
   {
-    "image": "images/l14.jpg",
+    "image": "l14.jpg",
+    "thumb": "l14-crop-u32530.jpg",
     "width": 385,
     "height": 405,
     "title": "NO TITLE",
     "description": "Carpet with the coöperation of Bruno  Montois; 200 x 200"
   },
   {
-    "image": "images/l15.jpg",
+    "image": "l15.jpg",
+    "thumb": "l15-crop-u32592.jpg",
     "width": 385,
     "height": 405,
     "title": "PAS PROGRAMMÉ POUR VOUS AIMER",

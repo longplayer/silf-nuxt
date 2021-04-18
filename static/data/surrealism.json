@@ -1,461 +1,527 @@
 [
   {
-    "image": "/images/sur1.jpg",
+    "image": "sur1.jpg",
+    "thumb": "sur1-crop-u17044.jpg",
     "width": 385,
     "height": 420,
     "title": "LÉDA",
     "description": "Oil on canvas; 220 x 130; signed at the bottom left; C.Silvain; 1968<br/><br/>Bibliography: Grenz Echo, p.17.<br/>Exhibitions: Belgisches Haus, Köln; BRF, Eupen; Busworld, Kortrijk; Centre culturel Marius Staquet, Mouscron; Centre culturel, Welkenraedt; Rathaus, Erftstadt; Stadhuis, Izegem."
   },
   {
-    "image": "/images/sur36.jpg",
+    "image": "sur36.jpg",
+    "thumb": "sur36-crop-u17722.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Oil on canvas on cartridge; 32.8 x 26.8; signed and dated at the bottom right: C. Silvain 1970."
   },
   {
-    "image": "/images/sur15.jpg",
+    "image": "sur15.jpg",
+    "thumb": "sur15-crop-u17533.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Oil on canvas; 32 x 24; signed and dated at the bottom right: Silvain 70."
   },
   {
-    "image": "/images/sur22.jpg",
+    "image": "sur22.jpg",
+    "thumb": "sur22-crop-u17596.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Oil on canvas; 100 x 80; signed and dated at the bottem left: C. Silvain 70."
   },
   {
-    "image": "/images/sur2.jpg",
+    "image": "sur2.jpg",
+    "thumb": "sur2-crop-u17416.jpg",
     "width": 385,
     "height": 420,
     "title": "LES POMMES",
     "description": "Oil on panel; 40 x 30; signed and dated at the bottom right; C.Silvain 71.<br/><br/>Bibliography: Grenz Echo, p.16.<br/>Exhibitions: Centre culturel Marius Staquet, Mouscron."
   },
   {
-    "image": "/images/sur29.jpg",
+    "image": "sur29.jpg",
+    "thumb": "sur29-crop-u17659.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Oil on canvas; 40 x 30; 1970/1974."
   },
   {
-    "image": "/images/sur9.jpg",
+    "image": "sur9.jpg",
+    "thumb": "sur9-crop-u17479.jpg",
     "width": 385,
     "height": 420,
     "title": "TRIPTIQUE",
     "description": "Oil on panel; 74 x 86; signed on the book at the bottom of the cross;<br/>s Christian; 1974.<br/><br/>Bibliography: Enzinck, p.13; Fondation, p.8.<br/>Exhibitions: Belgisches Haus, Köln; BRF, Eupen;  Centre culturel Marius Staquet, Mouscron; Haus Dacheröden; Rathaus, Erftstadt; Stadhuis, Izegem."
   },
   {
-    "image": "/images/sur37.jpg",
+    "image": "sur37.jpg",
+    "thumb": "sur37-crop-u17731.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Oil on canvas on panel; 53 x 45; signed and dated at the bottom left:<br/>C. Silvain 76.<br/><br/>Bibliography: Enzinck, p.20; Md'Hetd'A, p.48.<br/>Exhibitions: BRF, Eupen; Busworld, Kortrijk; Centre culturel Marius Staquet, Mouscron; Centre culturel, Welkenraedt; Haus Dacheröden, Erfurt; Stadhuis, Izegem."
   },
   {
-    "image": "/images/sur16.jpg",
+    "image": "sur16.jpg",
+    "thumb": "sur16-crop-u17542.jpg",
     "width": 385,
     "height": 420,
     "title": "LE JARDIN D'EKSAARDE",
     "description": "Oil on UNALIT panel; 50.5 x 37.5; 1976."
   },
   {
-    "image": "/images/sur30.jpg",
+    "image": "sur30.jpg",
+    "thumb": "sur30-crop-u17668.jpg",
     "width": 385,
     "height": 420,
     "title": "L'HIVER  Oil on panel; 122 x 73; 1976.",
     "description": "Bibliography: Supplement calendar, p.4; Enzinck, cover and p.32; Fondation, p.11; Grenz Echo, p.24.<br/>Exhibitions: Belgisches Haus, Köln; BRF, Eupen; Busworld, Kortrijk; CC Marius Staquet, Mouscron; CC, Welkenraedt; Haus Dacheröden, Erfurt; Historisch-Technisches Informationszentrum, Peenemünde; Rathaus, Erftstadt; Stadhuis, Izegem; Städtisches Museum und Galerie, Eisenhöttenstadt."
   },
   {
-    "image": "/images/sur23.jpg",
+    "image": "sur23.jpg",
+    "thumb": "sur23-crop-u17605.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Oil on canvas on panel; 205 x 155 without the frame; 1975/1977<br/><br/>Bibliography: Enzinck, p.50; brochure Belgisches Haus, Cologne; Fondation, p.12; Grenz Echo, p.23,25; Md'Hetd'A, p.50.<br/>Exhibitions: Old Heidelberg monastery, Eupen; Ancien château Grimaldi, Cagnes-sur-Mer; Belgisches Haus, Köln; BRF, Eupen; Busworld, Kortrijk; CC Marius Staquet, Mouscron; Haus Dacheröden, Erfurt; Rathaus, Erfstadt; Stadhuis, Izegem."
   },
   {
-    "image": "/images/sur49.jpg",
+    "image": "sur49.jpg",
+    "thumb": "sur49-crop-u17839.jpg",
     "width": 385,
     "height": 420,
     "title": "LA COUR DE RÉCRÉATION",
     "description": "Oil on panel; 120 x 90; 1978.<br/><br/>Bibliography: Enzinck, p.44; Fondation, p.9; Grenz Echo, p.26; Schilderijenkroniek, p.10.<br/>Exhibitions: BRF, Eupen; Busworld, Kortrijk; Centre culturel Marius Staquet, Mouscron; Centre culturel, Welkenraedt; Haus Dacheröden, Erfurt; Stadhuis, Izegem."
   },
   {
-    "image": "/images/sur61.jpg",
+    "image": "sur61.jpg",
+    "thumb": "sur61-crop-u17947.jpg",
     "width": 385,
     "height": 420,
     "title": "NU AU SABLON",
     "description": "Oil on canvas on panel; 90 x 120; signed on the pedestal: C. Silvain; 1978.<br/><br/>Exhibitions: Busworld, Kortrijk; Centre culturel Marius Staquet, Mouscron; IKOB Vanitas 2004, Eupen."
   },
   {
-    "image": "/images/sur55.jpg",
+    "image": "sur55.jpg",
+    "thumb": "sur55-crop-u17893.jpg",
     "width": 385,
     "height": 420,
     "title": "DONATELLA",
     "description": "Oil on canvas on panel; 60 x 50; signed at the bottom right: C. Silvain; 1978.<br/><br/>Bibliography: Enzinck, p.47; Fondation, p.10.<br/>Exhibitions: Centre culturel Marius Staquet, Mouscron; Haus Dacheröden, Erfurt; Stadhuis, Izegem."
   },
   {
-    "image": "/images/sur43.jpg",
+    "image": "sur43.jpg",
+    "thumb": "sur43-crop-u17785.jpg",
     "width": 385,
     "height": 420,
     "title": "LE PARK",
     "description": "Oil on panel; 168 x 120; 1978.<br/><br/>Bibliography: Enzinck, p.45; Fondation, p.7; Grenz Echo, p.25 and p.27.<br/>Exhibitions: Belgisches Haus, Cologne; BRF, Eupen; Busworld, Kortrijk; Centre culturel Marius Staquet, Mouscron; Centre culturel, Welkenraedt; Rathaus, Erftstadt; Stadhuis, Izegem."
   },
   {
-    "image": "/images/sur3.jpg",
+    "image": "sur3.jpg",
+    "thumb": "sur3-crop-u17425.jpg",
     "width": 385,
     "height": 420,
     "title": "POURQUOI TOUTES LES FEMMES NE SONT-ELLES PAS LESBIENNES?",
     "description": "Oil on panel; 180 x 120; signed and dated at the bottom right; C.Silvain 79<br/><br/>Bibliography: Enzinck, p.49; Fondation, p.13.<br/>Exhibitions: BRF, Eupen; Busworld, Kortrijk; Centre culturel Marius Staquet, Mouscron; Centre culturel, Welkenraedt; Haus Dacheröden, Erfurt; Stadhuis, Izegem."
   },
   {
-    "image": "/images/sur10.jpg",
+    "image": "sur10.jpg",
+    "thumb": "sur10-crop-u17488.jpg",
     "width": 385,
     "height": 420,
     "title": "ÉTUDE",
     "description": "Oil on panel; 30 x 20; titled and signed at the bottom left: C. Silvain: 1979."
   },
   {
-    "image": "/images/sur17.jpg",
+    "image": "sur17.jpg",
+    "thumb": "sur17-crop-u17551.jpg",
     "width": 385,
     "height": 420,
     "title": "NU AUX OIGNONS",
     "description": "Oil on panel; 39 x 48; signed at the bottom right: C. Silvain; inscribed at the bottom right: Pour Alphonse; date unknown."
   },
   {
-    "image": "/images/sur8.jpg",
+    "image": "sur8.jpg",
+    "thumb": "sur8-crop-u17470.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Charcoil on grey paper; 54.5 x 44.5; signed and dated at the bottem right: Christian Silvain 68."
   },
   {
-    "image": "/images/sur56.jpg",
+    "image": "sur56.jpg",
+    "thumb": "sur56-crop-u17902.jpg",
     "width": 385,
     "height": 420,
     "title": "L'AUTRE",
     "description": "Indian ink on brown paper; 50 x 32.5; signed and dated at the bottom left: 70."
   },
   {
-    "image": "/images/sur24.jpg",
+    "image": "sur24.jpg",
+    "thumb": "sur24-crop-u17614.jpg",
     "width": 385,
     "height": 420,
     "title": "L'ENTERREMENT",
     "description": "Pencil and Indian ink on paper; 53.5 x 36.5; titled, signed and dated at the bottom right: 70."
   },
   {
-    "image": "/images/sur48.jpg",
+    "image": "sur48.jpg",
+    "thumb": "sur48-crop-u17830.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Indian ink on paper; 36 x 27; date unknown."
   },
   {
-    "image": "/images/sur38.jpg",
+    "image": "sur38.jpg",
+    "thumb": "sur38-crop-u17740.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Indian ink on paper; 55 x 36.5; signed and dated at the bottom right: 70."
   },
   {
-    "image": "/images/sur44.jpg",
+    "image": "sur44.jpg",
+    "thumb": "sur44-crop-u17794.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Indian ink on paper; 55 x 36.5; signed and dated at the bottom right: 70."
   },
   {
-    "image": "/images/sur31.jpg",
+    "image": "sur31.jpg",
+    "thumb": "sur31-crop-u17677.jpg",
     "width": 385,
     "height": 420,
     "title": "LES DANSES MACABRES",
     "description": "Pencil on paper; 53 x 36; titled, signed and dated at the bottom right: 70."
   },
   {
-    "image": "/images/sur50.jpg",
+    "image": "sur50.jpg",
+    "thumb": "sur50-crop-u17848.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Indian ink on paper; 30 x 20; signed and dated at the bottom left: 70."
   },
   {
-    "image": "/images/sur11.jpg",
+    "image": "sur11.jpg",
+    "thumb": "sur11-crop-u17497.jpg",
     "width": 385,
     "height": 420,
     "title": "LA DOULEUR",
     "description": "Sanguine on grey paper: 28 x 18; titled at the bottom left; signed and dated at the bottom right: 72."
   },
   {
-    "image": "/images/sur39.jpg",
+    "image": "sur39.jpg",
+    "thumb": "sur39-crop-u17749.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on grey paper; 30 x 20.5; signed and dated at the bottom right: 72."
   },
   {
-    "image": "/images/sur32.jpg",
+    "image": "sur32.jpg",
+    "thumb": "sur32-crop-u17686.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on grey paper; 29.5 x 20.5; signed and dated at the bottom right: 72.<br/><br/>Bibliography: Grenz Echo, p.17.<br/>Exhibitions: Belgisches Haus, Köln; BRF, Eupen; Busworld, Kortrijk; Centre culturel Marius Staquet, Mouscron; Centre culturel, Welkenraedt; Rathaus, Erftstadt; Stadhuis, Izegem."
   },
   {
-    "image": "/images/sur62.jpg",
+    "image": "sur62.jpg",
+    "thumb": "sur62-crop-u17956.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Pencil on yellow paper; 55 x 36; signed and dated at the bottom right: 72."
   },
   {
-    "image": "/images/sur4.jpg",
+    "image": "sur4.jpg",
+    "thumb": "sur4-crop-u17434.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Pencil and white pencil on dark-brown paper; 45 x 65; signed and dated at the bottem left: 72."
   },
   {
-    "image": "/images/sur18.jpg",
+    "image": "sur18.jpg",
+    "thumb": "sur18-crop-u17560.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on grey paper; 29 x 19.5; signed and dated at the bottem right: 72."
   },
   {
-    "image": "/images/sur65.jpg",
+    "image": "sur65.jpg",
+    "thumb": "sur65-crop-u17983.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on grey paper; 24 x 32; date unknown."
   },
   {
-    "image": "/images/sur25.jpg",
+    "image": "sur25.jpg",
+    "thumb": "sur25-crop-u17623.jpg",
     "width": 385,
     "height": 420,
     "title": "LA DANCE",
     "description": "Sanguine on grey paper; 28.5 x 18.5; titled, signed and dated at the bottom right: 72."
   },
   {
-    "image": "/images/sur57.jpg",
+    "image": "sur57.jpg",
+    "thumb": "sur57-crop-u17911.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on grey paper; 29.5 x 20.5; signed and dated at the bottom right: 73."
   },
   {
-    "image": "/images/sur51.jpg",
+    "image": "sur51.jpg",
+    "thumb": "sur51-crop-u17857.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on grey paper; 27 x 17.5; signed and dated at the bottom right: 73."
   },
   {
-    "image": "/images/sur45.jpg",
+    "image": "sur45.jpg",
+    "thumb": "sur45-crop-u17803.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on grey paper; 28 x 19.5; signed and dated at the bottom left: 73."
   },
   {
-    "image": "/images/sur5.jpg",
+    "image": "sur5.jpg",
+    "thumb": "sur5-crop-u17443.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Charcoil and white pencil on brown paper; 34 x 24,5; signed at the bottem right: CS; 1974.<br/><br/>Bibliography: Fondation p.44; Grenz Echo p.21.<br/>Exhibitions: Ancien château Grimaldi, Cagnes-sur-Mer; Busworld, Kortrijk."
   },
   {
-    "image": "/images/sur63.jpg",
+    "image": "sur63.jpg",
+    "thumb": "sur63-crop-u17965.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Charcoil and white pencil on brown paper; 32 x 25; signed at the bottom right: CS; 1974."
   },
   {
-    "image": "/images/sur19.jpg",
+    "image": "sur19.jpg",
+    "thumb": "sur19-crop-u17569.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Charcoil and white pencil on beige paper; 47 x 39; 1974.<br/><br/>Exhibitions: Ancien château Grimaldi, Cagnes-sur-Mer; Centre culturel Marius Staquet, Mouscron."
   },
   {
-    "image": "/images/sur26.jpg",
+    "image": "sur26.jpg",
+    "thumb": "sur26-crop-u17632.jpg",
     "width": 385,
     "height": 420,
     "title": "DONATELLA",
     "description": "Pencil and white pencil on dark-brown paper; 65 x 43.5; signed and dated at the bottom left: 74."
   },
   {
-    "image": "/images/sur59.jpg",
+    "image": "sur59.jpg",
+    "thumb": "sur59-crop-u17929.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Pencil on beige cartridge; 35 x 49.5; date unknown."
   },
   {
-    "image": "/images/sur53.jpg",
+    "image": "sur53.jpg",
+    "thumb": "sur53-crop-u17875.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Pencil on paper; 36.5 x 55; date unknown."
   },
   {
-    "image": "/images/sur12.jpg",
+    "image": "sur12.jpg",
+    "thumb": "sur12-crop-u17506.jpg",
     "width": 385,
     "height": 420,
     "title": "DONATELLA",
     "description": "Charcoil on paper; 69 x 54; signed at the bottem right: 1974.<br/><br/>Bibliography: Fondation p.6; Grenz Echo p.20.<br/>Exhibitions: Ancien château Grimaldi, Cagnes-sur-Mer; Busworld, Kortrijk."
   },
   {
-    "image": "/images/sur6.jpg",
+    "image": "sur6.jpg",
+    "thumb": "sur6-crop-u17452.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on beige paper; 55 x 26; 1975."
   },
   {
-    "image": "/images/sur13.jpg",
+    "image": "sur13.jpg",
+    "thumb": "sur13-crop-u17515.jpg",
     "width": 385,
     "height": 420,
     "title": "SIMONE",
     "description": "Sanguine on brown paper; 65 x 27.5; signed at the bottom right; 1975."
   },
   {
-    "image": "/images/sur20.jpg",
+    "image": "sur20.jpg",
+    "thumb": "sur20-crop-u17578.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on beige paper; 37 x 27.5; 1975."
   },
   {
-    "image": "/images/sur33.jpg",
+    "image": "sur33.jpg",
+    "thumb": "sur33-crop-u17695.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Pencil on pink paper; 30 x 24; 1975."
   },
   {
-    "image": "/images/sur46.jpg",
+    "image": "sur46.jpg",
+    "thumb": "sur46-crop-u17812.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Self-portrait; sanguine on grey paper; 40 x 28; 1975."
   },
   {
-    "image": "/images/sur27.jpg",
+    "image": "sur27.jpg",
+    "thumb": "sur27-crop-u17641.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Self-portrait; sanguine on beige paper; 55 x 36.5; signed and dated at the bottom middle: 75."
   },
   {
-    "image": "/images/sur7.jpg",
+    "image": "sur7.jpg",
+    "thumb": "sur7-crop-u17461.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on beige paper; 36 x 55; signed at the bottem right; date unknown."
   },
   {
-    "image": "/images/sur52.jpg",
+    "image": "sur52.jpg",
+    "thumb": "sur52-crop-u17866.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on paper; 55 x 36; 1975."
   },
   {
-    "image": "/images/sur64.jpg",
+    "image": "sur64.jpg",
+    "thumb": "sur64-crop-u17974.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on brown paper; 55 x 36.5; signed at the bottom right; 1975."
   },
   {
-    "image": "/images/sur40.jpg",
+    "image": "sur40.jpg",
+    "thumb": "sur40-crop-u17758.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on grey paper; 67 x 22.5; signed at the bottom right; 1975."
   },
   {
-    "image": "/images/sur47.jpg",
+    "image": "sur47.jpg",
+    "thumb": "sur47-crop-u17821.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Pencil on brown cartridge; 50 x 65; date unknown."
   },
   {
-    "image": "/images/sur58.jpg",
+    "image": "sur58.jpg",
+    "thumb": "sur58-crop-u17920.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on brown paper; 52 x 36; 1975."
   },
   {
-    "image": "/images/sur14.jpg",
+    "image": "sur14.jpg",
+    "thumb": "sur14-crop-u17524.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on paper; 55 x 37.5; date unknown."
   },
   {
-    "image": "/images/sur21.jpg",
+    "image": "sur21.jpg",
+    "thumb": "sur21-crop-u17587.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine on beige paper; 55 x 75.5; date unknown."
   },
   {
-    "image": "/images/sur28.jpg",
+    "image": "sur28.jpg",
+    "thumb": "sur28-crop-u17650.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Sanguine; 54.5 x 76; date unknown."
   },
   {
-    "image": "/images/sur35.jpg",
+    "image": "sur35.jpg",
+    "thumb": "sur35-crop-u17713.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Pencil on antique-pink cartridge; 34.5 x 26; date unknown."
   },
   {
-    "image": "/images/sur34.jpg",
+    "image": "sur34.jpg",
+    "thumb": "sur34-crop-u17704.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Self-portrait; pencil on grey paper; 50 x 34; signed at the bottom right: CS; 1980.<br/><br/>Exhibitions: Ancien château Grimaldi, Cagnes-sur-Mer; Museé des Beaux Arts, Tournai"
   },
   {
-    "image": "/images/sur41.jpg",
+    "image": "sur41.jpg",
+    "thumb": "sur41-crop-u17767.jpg",
     "width": 385,
     "height": 420,
     "title": "ANIMÉ PERSÉ",
     "description": "Pencil and white pencil on grey paper; 53 x 41; signed at the bottom left; 1980."
   },
   {
-    "image": "/images/sur42.jpg",
+    "image": "sur42.jpg",
+    "thumb": "sur42-crop-u17776.jpg",
     "width": 385,
     "height": 420,
     "title": "NO TITLE",
     "description": "Pencil on cartridge; 31 x 22.5; date unknown."
   },
   {
-    "image": "/images/sur54.jpg",
+    "image": "sur54.jpg",
+    "thumb": "sur54-crop-u17884.jpg",
     "width": 385,
     "height": 420,
     "title": "L'HIVER",
     "description": "Pencil on paper; 58 x 42; date unknown.<br/><br/>Bibliography: Tekeningen, p.51."
   },
   {
-    "image": "/images/sur60.jpg",
+    "image": "sur60.jpg",
+    "thumb": "sur60-crop-u17938.jpg",
     "width": 385,
     "height": 420,
     "title": "HOMME SEUL",
     "description": "Watercolour on cartridge; 28 x 19.5 on 31 x 23.4; date unknown."
   },
   {
-    "image": "/images/sur66.jpg",
+    "image": "sur66.jpg",
+    "thumb": "sur66-crop-u17992.jpg",
     "width": 385,
     "height": 420,
     "title": "NÉ 85",
