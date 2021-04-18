@@ -64,6 +64,11 @@ export default {};
     width: 100%;
   }
 
+  & nav {
+    position: sticky;
+    top: 0;
+  }
+
   & nav,
   & .app-logo {
     @apply flex-none;

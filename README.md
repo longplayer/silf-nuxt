@@ -29,8 +29,10 @@ function getArtworksData() {
     $('.SSSlide.clip_frame').each(function(i,e){
         var image = e.querySelector('img');
         var caption = $('.SSSlideCaption')[i];
+        var thumbnail = $('.SSSlideLink img')[i];
         var data = {
-            image: image.dataset.src.split('?')[0].replace('http://www.silvain.org', ''),
+            image: image.dataset.src.split('?')[0].replace('http://www.silvain.org', '').replace('images/', ''),
+            thumb: thumbnail.dataset.museSrc.split('?')[0].replace('http://www.silvain.org', '').replace('images/', ''),
             width: parseInt(image.dataset.width),
             height: parseInt(image.dataset.height),
             title: caption.querySelector('p').innerText,
@@ -40,6 +42,7 @@ function getArtworksData() {
                     if (i > 0 && e.innerText.length > 1) d += e.innerText;
                     if (i < (a.length-1)) d+= '<br/>';
                 });
+                // before returning value, we could remove all leading <br>
                 return d;
             })(),
         };
@@ -56,4 +59,18 @@ var a = getArtworksData();
 copy(a);
 
 // now just paste to a new json document file ;)
+```
+
+```javascript
+// recover artwork images url (download with jdownloader)
+function getArtworksData() {
+    var res = [];
+    $('.SSSlide.clip_frame').each(function(i,e){
+        var image = e.querySelector('img');
+        res.push( 'http://www.silvain.org/' + image.dataset.src.split('?')[0] );
+    });
+    return res;
+}
+copy(getArtworksData());
+
 ```
