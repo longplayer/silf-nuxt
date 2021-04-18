@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
+    "@nuxtjs/axios": "^5.13.1",
     "core-js": "^3.9.1",
+    "file-system": "^1.2.9",
+    "fs": "*",
     "nuxt": "^2.15.3"
   },
   "devDependencies": {
