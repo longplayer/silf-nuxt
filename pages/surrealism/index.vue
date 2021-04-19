@@ -1,17 +1,17 @@
 <template>
   <div class="container">
     <h1 class="page-title">Surrealism</h1>
-    <viewer :dataSourceURL="'/data/surrealism.json'"></viewer>
+    <viewer :dataSource="dataSource"></viewer>
   </div>
 </template>
 
 <script>
+import db from "static/data/surrealism.json";
 export default {
-  // async asyncData ({ $content }) {
-  //   const page = await $content('news').fetch()
-  //   return {
-  //     page
-  //   }
-  // }
+  computed: {
+    dataSource() {
+      return db;
+    }
+  }
 };
 </script>

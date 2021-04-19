@@ -1,17 +1,17 @@
 <template>
   <div class="container">
     <h1 class="page-title">Graphic Art</h1>
-    <viewer :dataSourceURL="'/data/graphic.json'"></viewer>
+    <viewer :dataSource="dataSource"></viewer>
   </div>
 </template>
 
 <script>
+import db from "static/data/graphic.json";
 export default {
-  // async asyncData ({ $content }) {
-  //   const page = await $content('news').fetch()
-  //   return {
-  //     page
-  //   }
-  // }
+  computed: {
+    dataSource() {
+      return db;
+    }
+  }
 };
 </script>
