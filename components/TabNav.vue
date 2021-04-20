@@ -4,8 +4,9 @@
     <ul class="tab-nav--tabs">
       <li v-for="(item, index) in list" :key="index" class="tab-nav--item">
         <a
-          @click.prevent="activeItem = index"
-          :class="{ 'tab-nav--link': true, active: activeItem === index }"
+          @click.prevent="setActive(index)"
+          class="tab-nav--link"
+          :class="{ active: isActive(index) }"
           :href="`#tab-${index}`"
           >{{ item.title }}</a
         >
@@ -14,13 +15,9 @@
 
     <!-- contents -->
     <div class="tab-nav--contents">
-      <article
-        v-for="(item, index) in list"
-        :key="index"
-        class="tab-nav--panel"
-        :class="{ 'active show': activeItem === index }"
-        v-html="item.description"
-      ></article>
+      <article class="tab-nav--panel active show" v-if="list.length">
+        <nuxt-content :document="list[activeItemIndex].content"></nuxt-content>
+      </article>
     </div>
   </div>
 </template>
@@ -28,49 +25,52 @@
 <script>
 export default {
   props: {
-    data: {
+    dataSource: {
+      type: Object
+    },
+    tabnavOpt: {
       type: Object
     }
   },
 
   data() {
     return {
-      activeItem: 0,
-      list: [
-        {
-          id: "tab-1",
-          title: "Tab 1",
-          description: "<p><strong>1. </strong> Content one...</p>"
-        },
-        {
-          id: "tab-2",
-          title: "Tab 2",
-          description: "<p><strong>2. </strong> Content two...</p>"
-        },
-        {
-          id: "tab-3",
-          title: "Tab 3",
-          description: "<p><strong>3. </strong> Content three...</p>"
-        }
-      ]
+      activeItemIndex: 0,
+      list: [],
+      options: {
+        horizontalNav: true
+      }
     };
   },
 
   methods: {
-    isActive: index => this.activeItem === index,
-    setActive: index => {
-      this.activeItem = index;
+    isActive(index) {
+      return this.activeItemIndex === index;
+    },
+    setActive(index) {
+      this.activeItemIndex = index;
     }
   },
 
-  mounted() {
-    // console.log(this.data.props);
+  created() {
+    // abord initialisation if tabnav is false
+    if (this.dataSource.hasOwnProperty("tabnav") && !this.dataSource.tabnav)
+      return;
 
-    // this.data.body.children.forEach(v => {
-    //   if (v.type === "element") console.log(v.tag);
-    // });
-
-    this.activeItem = 0;
+    // define element visbility on loading
+    this.activeItemIndex = 0;
+    // get data from source to create tabs buttons
+    this.dataSource.tabs.forEach(tab => {
+      tab.toc.forEach(item => {
+        if (item.depth === 2) {
+          this.list.push({
+            id: item.id,
+            title: item.text,
+            content: tab
+          });
+        }
+      });
+    });
   }
 };
 </script>

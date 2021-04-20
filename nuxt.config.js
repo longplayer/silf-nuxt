@@ -39,6 +39,28 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ["@nuxt/content", "@nuxtjs/axios"],
 
+  hooks: {
+    "content:opions": options => {
+      // console.log("content options", options);
+    },
+    "content:file:beforeInsert": async (document, database) => {
+      if (document.extension === ".md" && document.body) {
+        // check for 'tabnav' property
+        if (document.hasOwnProperty("tabnav") && document.tabnav) {
+          const tabs = [];
+          for (let i = 0; i < document.tabNumber; i++) {
+            const tabVal = await database.markdown.toJSON(
+              document["tab" + (i + 1)]
+            );
+            tabs.push(tabVal);
+          }
+          // create the new property 'tabs'
+          Object.assign(document, { tabs });
+        }
+      }
+    }
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 

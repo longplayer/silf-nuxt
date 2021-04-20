@@ -1,3 +1,7 @@
+---
+title: News
+---
+
 ## Exhibitions
 - Art Up - Lille (F), Stand Galerie Jos Depypere, 2-5  March 2017
 - Rasson Art Gallery  - Tournai, 11 March - 9  April  2017
