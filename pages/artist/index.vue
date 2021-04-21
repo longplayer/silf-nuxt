@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1 class="page-title">The Artist</h1>
-    <TabNav :dataSource="page" :tanvanOpt="config"></TabNav>
+    <TabNav :dataSource="page" :tabnavOpt="config"></TabNav>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
   data() {
     return {
       config: {
-        horizontalNav: false
+        navDirection: "v"
       }
     };
   }

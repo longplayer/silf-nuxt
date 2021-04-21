@@ -10,11 +10,6 @@ export default {
   async asyncData(context) {
     const page = await context.$content("foundation").fetch();
     return { page };
-  },
-  data() {
-    return {
-      page: false
-    };
   }
 };
 </script>

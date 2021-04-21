@@ -24,11 +24,12 @@
 @layer components {
   .container {
     min-height: 100vh;
-    @apply flex mt-0 my-auto;
+    @apply flex items-start text-sm mt-0 my-auto;
   }
 
   .page-content .container {
-    @apply flex-wrap w-full h-full min-h-0 p-16;
+    @apply block w-full h-auto min-h-0;
+    background-color: inherit;
   }
 }
 
@@ -66,6 +67,7 @@
         }
       }
     }
+
     &:hover {
       & > a::before {
         @apply opacity-100;
@@ -135,8 +137,12 @@
   }
 }
 
+.page-content {
+  @apply w-full h-full p-16;
+}
+
 .page-title {
-  @apply text-2xl uppercase tracking-wide w-full flex-auto;
+  @apply text-2xl uppercase tracking-wide w-full flex-auto mb-8;
 }
 
 .fade-enter-active,
