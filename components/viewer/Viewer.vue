@@ -41,6 +41,9 @@ export default {
   props: {
     dataSourceURL: {
       type: String
+    },
+    dataSource: {
+      type: Array
     }
   },
 
@@ -53,16 +56,49 @@ export default {
   },
 
   async fetch() {
-    this.list = await this.$axios.$get(this.dataSourceURL).then(res => {
-      this.isLoaded = true;
-      this.showItem(0, res);
-      return res;
-    });
+    // temp: keep compatibility with previous process
+    if (typeof this.dataSource === "undefined") {
+      this.list = await this.$axios.$get(this.dataSourceURL).then(res => {
+        // console.log(res);
+
+        this.isLoaded = true;
+        this.showItem(0, res);
+        return res;
+      });
+    }
   },
 
   methods: {
     showItem(index, list) {
       this.activeData = list[index];
+    }
+  },
+
+  computed: {
+    updatedList() {
+      if (typeof this.dataSource === "undefined") {
+        // console.log("dataSource is undefined");
+        return this.list;
+      } else {
+        // console.log(this.dataSource);
+        return this.dataSource;
+      }
+    }
+  },
+
+  created() {
+    // this.list = this.dataSource;
+    if (typeof this.dataSource !== "undefined") {
+      // console.log(
+      //   ">>CREATED",
+      //   this.list,
+      //   this.list.length,
+      //   this.dataSource,
+      //   this.dataSource.length
+      // );
+      this.list = this.dataSource;
+      this.isLoaded = true;
+      this.showItem(0, this.list);
     }
   }
 };
