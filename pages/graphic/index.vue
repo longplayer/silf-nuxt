@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1 class="page-title">Graphic Art</h1>
-    <viewer :dataSource="dataSource"></viewer>
+    <viewer :dataSource="dataSource" :compConfig="{ gridSize: 5 }"></viewer>
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1 class="page-title">Surrealism</h1>
-    <viewer :dataSource="dataSource"></viewer>
+    <viewer :dataSource="dataSource" :compConfig="{ gridSize: 6 }"></viewer>
   </div>
 </template>
 

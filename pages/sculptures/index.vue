@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1 class="page-title">Sculptures</h1>
-    <viewer :dataSource="dataSource"></viewer>
+    <viewer :dataSource="dataSource" :compConfig="{ gridSize: 4 }"></viewer>
   </div>
 </template>
 
