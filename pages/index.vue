@@ -6,12 +6,17 @@
       <div class="logo-box">
         <Logo />
         <div class="fb-box">
-          <img
-            src="~/assets/img/fb-default.png"
-            alt="Facebook logo"
-            title="Visit our Facebook page"
-            class="logo-w"
-          />
+          <a
+            href="https://www.facebook.com/Christian-Silvain-Stichting-1732606323636467/?fref=ts"
+            target="_blank"
+          >
+            <img
+              src="~/assets/img/fb-default.png"
+              alt="Facebook logo"
+              title="Visit our Facebook page"
+              class="logo-w"
+            />
+          </a>
         </div>
       </div>
       <NuxtLink :to="'/news'" class="enter-site">Enter</NuxtLink>
@@ -53,6 +58,13 @@ export default {
   right: 0;
   transform: translate(50%, -50%);
   @apply absolute;
+
+  & a img {
+    @apply transition-transform;
+  }
+  & a:hover img {
+    transform: scale(1.1);
+  }
 }
 
 .app-logo {
