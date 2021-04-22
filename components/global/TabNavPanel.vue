@@ -2,7 +2,12 @@
   <div class="tab-nav--contents">
     <article class="tab-nav--panel">
       <!-- TODO: transition doesn't work!! -->
-      <transition name="component-fade" mode="out-in" :duration="1000">
+      <transition
+        name="component-fade"
+        mode="out-in"
+        :duration="1000"
+        :key="data.id"
+      >
         <component :is="'nuxt-content'" :document="data.content"></component>
       </transition>
     </article>

@@ -8,10 +8,18 @@
     ></tab-nav-item>
 
     <!-- contents -->
-    <tab-nav-panel
+    <transition name="fade" mode="out-in">
+      <component
+        :is="'tab-nav-panel'"
+        :data="list[activeItemIndex]"
+        :class="'tab-' + options.navDirection"
+        :key="activeItemIndex"
+      ></component>
+    </transition>
+    <!-- <tab-nav-panel
       :data="list[activeItemIndex]"
       :class="'tab-' + options.navDirection"
-    ></tab-nav-panel>
+    ></tab-nav-panel> -->
   </div>
 </template>
 
@@ -69,6 +77,8 @@ export default {
     });
 
     this.options = this.tabnavOpt;
+
+    console.log(this.list[this.activeItemIndex]);
   }
 };
 </script>
@@ -85,5 +95,24 @@ export default {
       grid-template-columns: 300px 1fr;
     }
   }
+}
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  /* don't need to precise opacity:1, because 1 is already the default value */
+  /* opacity: 1; */
+  transition: opacity 1s;
+}
+
+.fade-leave {
+  /* same here, 1 already the is default value */
+  /* opacity: 1; */
+}
+
+.fade-leave-active {
+  opacity: 0;
+  transition: opacity 1s;
 }
 </style>
