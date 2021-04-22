@@ -16,10 +16,6 @@
         :key="activeItemIndex"
       ></component>
     </transition>
-    <!-- <tab-nav-panel
-      :data="list[activeItemIndex]"
-      :class="'tab-' + options.navDirection"
-    ></tab-nav-panel> -->
   </div>
 </template>
 
@@ -77,8 +73,6 @@ export default {
     });
 
     this.options = this.tabnavOpt;
-
-    console.log(this.list[this.activeItemIndex]);
   }
 };
 </script>
@@ -92,7 +86,7 @@ export default {
   /* vertical layout */
   &.tab-nav--v {
     @screen lg {
-      grid-template-columns: 300px 1fr;
+      grid-template-columns: 240px 1fr;
     }
   }
 }
