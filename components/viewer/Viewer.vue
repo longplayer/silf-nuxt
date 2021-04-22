@@ -1,13 +1,13 @@
 <template>
   <div class="app-viewer">
     <!-- grid -->
-    <div class="app-viewer--grid" v-if="isLoaded">
+    <div v-if="isLoaded" class="app-viewer--grid">
       <div class="app-viewer--item" v-for="(item, index) in list" :key="index">
         <a
           href="#"
           class="app-viewer--link"
           :title="item.title"
-          @click.prevent="showItem(index, list)"
+          @click.prevent="showItem(list[index])"
         >
           <img
             class="app-viewer--thumb"
@@ -20,7 +20,7 @@
     </div>
 
     <!-- viewer -->
-    <div v-if="activeData.hasOwnProperty('title')" class="app-viewer--view">
+    <div v-if="isLoaded" class="app-viewer--view">
       <figure class="app-viewer--fig">
         <img
           :src="require(`@/assets/img/artworks/${activeData.image}`)"
@@ -47,28 +47,22 @@ export default {
 
   data() {
     return {
+      activeData: {},
       isLoaded: false,
-      list: [],
-      activeData: {}
+      list: []
     };
-  },
-
-  methods: {
-    showItem(index, list) {
-      this.activeData = list[index];
-    }
-  },
-
-  computed: {
-    updatedList() {
-      return this.dataSource;
-    }
   },
 
   created() {
     this.list = this.dataSource;
-    this.isLoaded = true;
-    this.showItem(0, this.list);
+    this.isLoaded = this.list.length > 0;
+    this.activeData = this.isLoaded ? this.list[0] : {};
+  },
+
+  methods: {
+    showItem(data) {
+      this.activeData = data;
+    }
   }
 };
 </script>
