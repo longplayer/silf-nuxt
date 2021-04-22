@@ -74,3 +74,38 @@ function getArtworksData() {
 copy(getArtworksData());
 
 ```
+
+```javascript
+// Download exhibition slideshow data (artist/solo &artist/group)
+function getData(){
+
+    var response = [];
+    var text = ''
+
+    $('.TabbedPanelsWidget').each(function(i,el){
+
+        var tabs = el.querySelectorAll('.TabbedPanelsTab');
+        var panels = el.querySelectorAll('.TabbedPanelsContent div:last-child');
+
+        // As we need a single file for each slide we separate them into a new array
+        response.push([]);
+
+        tabs.forEach(function(tab, j){
+            response[i].push({
+                title: tab.innerText.trim(),
+                content: panels[j].innerText.trim()
+
+            });
+
+            text += '## ' + tab.innerText.trim();
+            text += "\n\n" + panels[j].innerText.trim() + "\n\n";
+        });
+
+    });
+    
+    return text;
+
+}
+console.log(getData());
+copy(getData());
+```
