@@ -6,7 +6,7 @@ tabNumber: 4
 tab1: |
   ## The Christian Silvain foundation
 
-  **<em>The Christian Silvain foundation</em>** was created in Belgium, in 1992. On 28 January 1993, the foundation’s constitution was published in the appendix of the Belgian federal law gazette, on pages 355 and 356. The gazette also contains all necessary information on the founding and other members of the foundation.<br/><br/>
+  <em>The Christian Silvain foundation</em> was created in Belgium, in 1992. On 28 January 1993, the foundation’s constitution was published in the appendix of the Belgian federal law gazette, on pages 355 and 356. The gazette also contains all necessary information on the founding and other members of the foundation.<br/><br/>
 
   The constitution of the foundation defines two main objectives: further the work of Christian Silvain, and arrange for a museum somewhere in Belgium. The publication, in May 2008, of a catalogue raisonné and the present website, for instance, are part of the foundation’s attempt to fulfil the first objective. Indeed, both the catalogue and its online counterpart aim at displaying all artworks of the foundation, and thus at offering an overview of Christian Silvain’s oeuvre. This is even more true for the printed catalogue, which contains several objects and accessories having played an important role in the development process of some of Silvain’s artworks. As regards the second objective, that is the creation of a museum, please refer to section 12, contact and museum.<br/><br/>
 

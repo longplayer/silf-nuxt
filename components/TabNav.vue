@@ -73,7 +73,7 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 .tab-nav {
   @apply grid border border-gray-900 w-full h-full;
   grid-template-columns: 1fr;

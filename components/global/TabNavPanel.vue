@@ -1,7 +1,10 @@
 <template>
   <div class="tab-nav--contents">
     <article class="tab-nav--panel">
-      <nuxt-content :document="data.content"></nuxt-content>
+      <!-- TODO: transition doesn't work!! -->
+      <transition name="component-fade" mode="out-in" :duration="1000">
+        <component :is="'nuxt-content'" :document="data.content"></component>
+      </transition>
     </article>
   </div>
 </template>
@@ -39,5 +42,14 @@ export default {
       flex: 1 1 auto;
     }
   }
+}
+
+.component-fade-enter-active,
+.component-fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.component-fade-enter, .component-fade-leave-to
+/* .component-fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>
