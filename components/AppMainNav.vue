@@ -67,6 +67,7 @@ export default {};
   & nav {
     position: sticky;
     top: 0;
+    background-color: inherit;
   }
 
   & nav,

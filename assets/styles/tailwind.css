@@ -33,7 +33,29 @@
   }
 }
 
+/* website global */
+.page-content {
+  @apply w-full h-full p-16;
+}
+
+.page-title {
+  @apply text-2xl uppercase tracking-wide w-full flex-auto mb-0;
+  @apply truncate;
+}
+
+.sup-title {
+  @apply text-sm uppercase tracking-wide w-full flex-auto mb-0;
+}
+
+.app-viewer,
+.tab-nav {
+  @apply mt-8;
+}
+
 /* NUXT CONTENT */
+.page-tite ~ .nuxt-content-container {
+  @apply mb-0;
+}
 .nuxt-content {
   @apply break-words text-left;
 
@@ -137,14 +159,7 @@
   }
 }
 
-.page-content {
-  @apply w-full h-full p-16;
-}
-
-.page-title {
-  @apply text-2xl uppercase tracking-wide w-full flex-auto mb-8;
-}
-
+/* animatoin & transition */
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s;
