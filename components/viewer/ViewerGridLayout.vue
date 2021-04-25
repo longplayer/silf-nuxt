@@ -1,28 +1,42 @@
 <template>
-  <div
-    class="app-viewer--ingrid"
-    :class="'auto-cols-max md:grid-cols-' + data.config.gridSize"
-  >
-    <div
-      class="app-viewer--item"
-      v-for="(item, index) in tabContent"
-      :key="index"
-      :class="{ selected: selectedItemIndex === index }"
-    >
-      <a
-        href="#"
-        class="app-viewer--link"
-        :title="item.title"
-        @click.prevent="changeDataTo({ data: tabContent[index], index })"
-      >
-        <img
-          class="app-viewer--thumb"
-          :src="require(`@/assets/img/artworks/${item.thumb}`)"
-          :alt="item.title"
-        />
-        <span class="app-viewer--label">{{ item.title }}</span>
-      </a>
+  <div v-if="data.isLoaded" class="app-viewer--grid">
+    <!-- tabs -->
+    <div class="app-viewer--tabs" v-if="tabnavConfig.tabs.length > 1">
+      <viewer-tabs
+        :list="tabnavConfig.tabs"
+        v-on:tabChanged="changeTabTo"
+      ></viewer-tabs>
     </div>
+
+    <!-- grid -->
+    <transition name="fade" mode="out-in">
+      <div
+        class="app-viewer--ingrid"
+        :class="'grid-cols-' + data.config.gridSize"
+        :key="counter + counter"
+      >
+        <div
+          class="app-viewer--item"
+          v-for="(item, index) in tabContent"
+          :key="index"
+          :class="{ selected: selectedItemIndex === index }"
+        >
+          <a
+            href="#"
+            class="app-viewer--link"
+            :title="item.title"
+            @click.prevent="changeDataTo({ data: tabContent[index], index })"
+          >
+            <img
+              class="app-viewer--thumb"
+              :src="require(`@/assets/img/artworks/${item.thumb}`)"
+              :alt="item.title"
+            />
+            <span class="app-viewer--label">{{ item.title }}</span>
+          </a>
+        </div>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -49,9 +63,16 @@ export default {
       this.$emit("dataChanged", payload.data);
     },
     changeTabTo(index) {
-      this.selectedItemIndex = 0; //reset navigation
       this.selectTabIndex = index;
       this.tabContent = this.tabnavConfig.contents[index];
+      this.resetGridToIndex(0); //reset navigation
+    },
+    resetGridToIndex(index) {
+      this.selectedItemIndex = index;
+      this.changeDataTo({
+        data: this.tabContent[index],
+        index
+      });
     },
     splitArray(data) {
       const response = [];
