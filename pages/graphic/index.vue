@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1 class="page-title">Graphic Art</h1>
-    <viewer :dataSource="dataSource" :compConfig="{ gridSize: 5 }"></viewer>
+    <viewer :dataSource="dataSource" :compConfig="config"></viewer>
   </div>
 </template>
 
@@ -12,6 +12,14 @@ export default {
     dataSource() {
       return db;
     }
+  },
+  data() {
+    return {
+      config: {
+        gridSize: 5,
+        nPanels: 2
+      }
+    };
   }
 };
 </script>

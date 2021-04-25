@@ -40,6 +40,7 @@ export default {
     return {
       activeItemIndex: 0,
       tabClass: "tab-nav--",
+      titleSelected: "",
       list: [],
       options: {}
     };
@@ -51,6 +52,10 @@ export default {
     },
     setActive(index) {
       this.activeItemIndex = index;
+      this.emitTitle(this.list[this.activeItemIndex].title);
+    },
+    emitTitle(title) {
+      this.$emit("titleChanged", title);
     }
   },
 
@@ -73,6 +78,8 @@ export default {
     });
 
     this.options = this.tabnavOpt;
+    this.titleSelected = this.list[this.activeItemIndex].title;
+    this.emitTitle(this.titleSelected);
   }
 };
 </script>

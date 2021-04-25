@@ -1,7 +1,6 @@
 <template>
   <div class="tab-nav--contents">
     <article class="tab-nav--panel">
-      <!-- TODO: transition doesn't work!! -->
       <transition
         name="component-fade"
         mode="out-in"
