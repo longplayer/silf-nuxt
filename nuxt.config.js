@@ -45,6 +45,7 @@ export default {
     },
     "content:file:beforeInsert": async (document, database) => {
       if (document.extension === ".md" && document.body) {
+        // create the new property 'tabs'
         // check for 'tabnav' property
         if (document.hasOwnProperty("tabnav") && document.tabnav) {
           const tabs = [];
@@ -54,8 +55,25 @@ export default {
             );
             tabs.push(tabVal);
           }
-          // create the new property 'tabs'
           Object.assign(document, { tabs });
+
+          // detect nested tabs
+          // if (document.hasOwnProperty("isNested") && document.isNested) {
+          //   console.log(">>detected nested tabs here");
+          //   const nested = [];
+          //   for (let i = 0; i < document.nestedTabNumber; i++) {
+          //     const nesVal = await database.markdown.toJSON(
+          //       document["solo" + (i + 1)]
+          //     );
+          //     nested.push(nesVal);
+          //   }
+          //   // document.tab4 = document.tab4.replace(
+          //   //   /:dataSource=""/g,
+          //   //   ':dataSource="{' + nested + '}"'
+          //   // );
+          //   // const tab4Val = await database.markdown.toJSON(document["tab4"]);
+          //   Object.assign(document, { nested /*, tab4: tab4Val*/ });
+          // }
         }
       }
     }
