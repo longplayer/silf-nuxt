@@ -54,10 +54,10 @@ tab3: |
   - Exhibition of the German-speaking Community of Belgium; Belgisches Haus; Cologne (D); no year.
 tab4: |
   ## SOLO EXHIBITIONS
-  special content here
+  [tabnav]
 tab5: |
   ## GROUP EXHIBITIONS
-  special content here
+  [tabnav]
 tab6: |
   ## MUSEUMS AND COLLECTIONS
   - Albert et Paola de Belgique Collection (B)
