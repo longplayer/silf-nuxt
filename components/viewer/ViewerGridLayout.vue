@@ -12,7 +12,7 @@
     <transition name="fade" mode="out-in">
       <div
         class="app-viewer--ingrid"
-        :class="'grid-cols-' + data.config.gridSize"
+        :class="'viewer--grid-' + data.config.gridSize"
         :key="counter + counter"
       >
         <div

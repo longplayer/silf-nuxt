@@ -83,37 +83,3 @@ export default {
   }
 };
 </script>
-
-<style lang="postcss">
-.tab-nav {
-  @apply grid border border-gray-900 w-full h-full;
-  grid-template-columns: 1fr;
-  background-color: inherit;
-
-  /* vertical layout */
-  &.tab-nav--v {
-    @screen lg {
-      grid-template-columns: 240px 1fr;
-    }
-  }
-}
-.fade-enter {
-  opacity: 0;
-}
-
-.fade-enter-active {
-  /* don't need to precise opacity:1, because 1 is already the default value */
-  /* opacity: 1; */
-  transition: opacity 1s;
-}
-
-.fade-leave {
-  /* same here, 1 already the is default value */
-  /* opacity: 1; */
-}
-
-.fade-leave-active {
-  opacity: 0;
-  transition: opacity 1s;
-}
-</style>

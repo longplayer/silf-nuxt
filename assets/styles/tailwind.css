@@ -47,11 +47,6 @@
   @apply text-sm uppercase tracking-wide w-full flex-auto mb-0;
 }
 
-.app-viewer,
-.tab-nav {
-  @apply mt-8;
-}
-
 /* NUXT CONTENT */
 .page-tite ~ .nuxt-content-container {
   @apply mb-0;
