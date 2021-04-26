@@ -2,8 +2,11 @@
 title: Biblography
 description: 
 tabnav: true
-tabNumber: 11
+tabNumber: 12
 tab1: |
+  ## MONOGRAPHY
+  <nuxt-link to="/monography" class="btn">Open the monographies' page</nuxt-link>
+tab2: |
   ## PUBLICATIONS MENTIONED IN SECTIONS 4 TO 9
   - **93**
 
@@ -160,11 +163,11 @@ tab1: |
   - **Tekeningen**
 
     Monograph *Tekeningen van Christian Silvain*; J. Murez; Art Editions; Ghent; 1978
-tab2: |
+tab3: |
   ## PUBLICATIONS BY THE ARTIST
   - *En attendant*; illustrated poems; C. Silvain; Grenz Echo Verlag; Eupen; 1994.
   - *Le magasin de jouets, essai d'autobiographie et trois entretiens avec Julien Christiaens*; C. Silvain; Grenz Echo Verlag; Eupen; 1999.
-tab3: |
+tab4: |
   ## INDIVIDUAL EXHIBITION CATALOGUS
   - *Christian Silvain*; J. Collard, S. Rey, A. Vlaskop; Aymon XXI Selektie; Europa-Centrum; Ostend; 1 - 20 September 1972.
   - *Christian Silvain*; A. Vlaskop; Aymon Selektie; Ghent; 9 - 25 November 1973.
@@ -192,7 +195,7 @@ tab3: |
   - *Silvain, Vancouver*; Buschlen-Mowatt Art Gallery; Vancouver; no year.
   - *Silvain, testament*; Galerie Depypere; Kuurne; no year.
   - *Werke aus der Stiftung Christian Silvain*; N. Kreusch; Eupen; no year.
-tab4: |
+tab5: |
   ## SILVAIN IN EXHIBITION; FAIR AND AUCTION CATALOGUS
   - *Christian Silvain*; A. Vlaskop. In: Nieuw Vlaanderen; Aymon Selektie XXV; Europa-Centrum; Ostend; 9 December 1972 - 9 January 1973.
   - *"Christian Silvain, klassiek bewerker van een eigen thematiek"*; W. Otte. In: schilderijenkroniek met latems kunstleven, volume 4, no. 9; on the occasion of the exhibition "Surrealisme en fantastiek"; Latems Museum voor moderne Kunsten; Sint-Martens-Latem; December 1979.
@@ -252,7 +255,7 @@ tab4: |
   - *Art Elysée*; 2012.
   - *Lille Art Fair*; 2012.
   - Artwork *"Operatiezaal"*. In: *Arts et encres, Imprimer son temps*; Structure Concorde, Centre graphique; no year; p.11.
-tab5: |
+tab6: |
   ## PRESENCE IN MAGAZINES
   - Artwork *"Je suis aussi éternel que le ventre de la femme"*. In: connaissance des arts; announcement of the exhibition "Christian Silvain" at Casino Kursaal in Ostend, 19 July - 6 August 1980; no. 341; Paris; July 1980; cover, back, inside.
   - Artwork *"De twee vriendinnen"*. In: *ons Brussel*; Vlaamse Club voor Kunsten, Wetenschappen en Letteren; volume 2, no. 11; Brussels; November 1981; cover, back, inside.
@@ -296,7 +299,7 @@ tab5: |
   - *"Silvain Christian"*; p. Goyens de Heusch. In: *XXe siècle, L’art en Wallonie*; Dexia; no year; p.393/394.
   - *"Christian Silvain : kunstenaar met wereldfaam"*; C. Liviau. In: *Kluisbergen*; volume 29, no. 340; Kluisbergen; no year; p.20/21.
   - Artwork with no title. In: *tele Knack*; announcement of the exhibition " Silvain" at Guy Pieters Gallery in Knokke; 22 - 28 May, no year; p.58/59.
-tab6: |
+tab7: |
   ## SILVAIN IN BOOKS AND OTHER PUBLICATIONS
   - *"Christian Silvain"*; J. Stalmans. In: *Galerie*; Ortelius Reeks; Deurne-Antwerp; 1986; p.81-88.
   - *"Christian Silvain, De realiteit als alibi"*; C. David. In: *Snoeks 87*; Snoeck-Ducaju en Zoon; volume 63; 1987; p.495-499.
@@ -307,18 +310,18 @@ tab6: |
   - Artwork *"Mutti"*. In: *Handbuch der Editionen*; DE, EN, FR, IT, ES; Depelmann; Langenhagen; 1994/1995; p.128.
   - Artwork *"Un oiseau dans le ciel de maman"*. In: *Le tour du monde en 80 toques*; Denise and Claude Metzinger; Edition Universal Trading Company; no year; p.69.
   - Artwork with no title. In: *Word volwassen papa*; A.F. Haelemeersch; Deinze; no year; cover, front.
-tab7: |
+tab8: |
   ## CALENDARS
   - 92; Guy Pieters Gallery; Sint-Martens-Latem; 1992.
   - 97; Antilope; 1997.
   - Nordstern insurance; no year.
-tab8: |
+tab9: |
   ## ASSIGNMENTS AND DIPLOMA THESES
   - *Christian Silvain, LineArt 95*; V. Vanderbrugghen, S. Vandervennet; 1995.
   - *Christian Silvain*; B. Blaton, I. De Coninck, L. Lacroix; 1997.
   - *REW*; A.-C. Grosch; diploma thesis; Pater-Damian-Sekundarschule; Eupen; 2001.
   - *Christian Silvain*; P. Reinertz; examination paper; 3rd PHPD; Eupen; no year.
-tab9: |
+tab10: |
   ## SELECTED PRESS ARTICLES
   - *"Sylvain : Je suis heureux";* J. Collard. In: *Pourquoi pas ?*; 1971.
   - *"Silvain"*; S. Rey. In: *Le Phare*; 9 April 1972.
@@ -385,10 +388,10 @@ tab9: |
   - *"Christian Silvain im St. Vither Rathaus"*. In: *Grenz Echo*; no year.
   - *"Auch Königspaar an der Côte d'Azur, 15.000 Besucher sahen Silvain-Schau"*. In: *Grenz Echo*; no year.
   - *"Vergänglichkeit ist auch Zukunft, Heute startet das Belgienprojekt Wege der Hoffnung"*; P.-A. Fiedler; no further information.
-tab10: |
+tab11: |
   ## IMITATIONS
   Artworks *"Höhen und Tiefen"*, *"I think so"*, *"Zimmergeschichte"*, *"Stadt-Tagebuch"*, *"Liebe Kinder"*, *"Graue Landschaft"* and *"Stadt der Liebhaber"* by Ye Yongoing. In: exhibition catalogue *China, Zeitgenössische Malerei*; Kunstmuseum Bonn; 29 February - 16 June 1996; Bonn; p.52-55.
-tab11: |
+tab12: |
   ## VARIOUS
   ### Invitations without corresponding catalogue
 
