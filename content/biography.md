@@ -3,76 +3,50 @@ title: Biography
 description: This is a descriptiooon
 ---
 
-# 1950:
-Born in Eupen, Belgium. Self-taught.
-Neglected by his parents, Christian spends most of his childhood with two older aunts; they simulated his passion for drawing and painting from the early age of three.
-He spent many hours copying the paintings on the walls of their house, whilst they were working in their toystore on the ground floor.
+<br/>Christian Silvain est né en 1950 à Eupen, Belgique.<br/><br/>
 
-# 1955:
-Christian’s parents separate.
+Suite au désintérêt de ses parents, Christian Silvain passa le plus clair de ses années d’enfance chez deux vieilles tantes, qui dès l’âge de trois ou quatre ans éveillèrent chez lui le goût du dessin et de la peinture. Il passait ainsi des heures à cette occupation pendant que les tantes s’occupaient de leur magasin de jouets situé au rez-de-chaussée.<br/><br/>
 
-# 1956:
-Primary school in Spa, where he learns French and his artistic talent is discovered at an early age.
+En 1955 ses parents divorcent. Il entre alors à l’école primaire à Spa, où il apprend le français, et où on décèle très vite ses aptitudes pour l’art.<br/><br/>
 
-# 1957-1964:
-After school, and later after work, he paints many works in the attic; paintings that nobody knows of and nobody sees. Day by day, he withdraws more from the outside world and finds solace in alcohol. The chasm widens between him and his family. He is stricken with admiration when he sees a big painting by Paul Delvaux. He is determined to dedicate his life to painting.
+De 1957-1964, après l’école et plus tard après le travail, il peint dans un coin de grenier, dans l’indifférence générale, des tableaux que personne ne regarde. De plus en plus renfermé sur lui-même, abusant parfois de l’alcool, le fossé entre lui et son milieu familial se creuse de plus en plus.<br/><br/>
 
-# 1964:
-Aunt Josephine passes away.
+C’est suite à la découverte de l’oeuvre de Paul Delvaux qu’il décide définitivement qu’il sera peintre et rien d’autre.<br/><br/>
 
-# 1966:
-Aunt Johanna passes away.
-He finally breaks with his family and leaves for Brussels, penniless and alone. This is the start of one of the darkest periods of his life. He writes songs and performs in bars and restaurants to earn a meager living. He lives in an attic in the Boterstraat, close to the Grand Place in Brussels.
+Après le décès de ses deux tantes, Silvain rompt totalement avec sa famille. Il part pour Bruxelles, sans argent.<br/><br/>
 
-# 1967:
-Finds a job as handyman at the operetta theatre in the northern quarter of Brussels. He also restores canvases that are used on stage as scene decoration.
-Meets Maurice Béjart and befriends some dancers.
-Christian works on the canvases for the scene decoration for “Les ballets du 20 ième siècle”.
-Meets Jacques Brel in the canteen of the Mint Theatre.
-They often have breakfast together during the rehearsals of “L’homme de la Mancha”.
+Ne connaissant personne sur place, c’est le début d’une période parmi les plus difficiles qui commence pour lui.Chansonnier à ses heures il fait la manche pour subsister, habite un débarras sous les toits rue au Beurre, près de la Grand Place de la capitale.<br/><br/>
 
-# 1968:
-Is drafted for military services, but is disqualified shortly afterwards.
-Silvain paints his first surreal paintings, influenced by the work of Paul Delvaux whom he considers his spiritual father, and with whom he will develop a close friendship many years later.
-Meets Simone and Donatella who becomes his first wife in 1971. Meets mime artist Marcel Marceau of whom he paints a surreal portret. First individual exhibition at Bernard Van Berg’s who had a fur shop on the avenue Louise in Brussels. He bought Silvain’s first paintings to support him financially.
+A partir de 1967, il travaille au théâtre d’opérette de Bruxelles dans le quartier nord comme homme à tout faire et commence à restaurer les toiles de fond servant de décor. Il rencontre Maurice Béjart, se lie d’amitié avec quelques danseurs et s’occupe de travaux de décors pour les ballets du 20ème siècle. Il rencontre Jacques Brel à la cantine du théâtre de la Monnaie où ils déjeunent souvent ensemble pendant les répétitions de «l’homme de la mancha».<br/><br/>
 
-# 1970:
-Many trips to Paris and Germany, together with friend and then agent Jacques Grootaert.
+En 1968, Silvain est appelé pour le service militaire, mais on le réforme quelques semaines plus tard. Il commence à peindre ses premiers tableaux surréalistes, fortement influencé par Paul Delvaux qu’il considère un peu comme son père spirituel, et avec lequel il se liera d’amitié de nombreuses années plus tard. Il rencontre le mime Marcel Marceau, également peintre à ses heures et dont il fait le portrait surréaliste.<br/><br/>
 
-# 1971:
-First exhibilition in Flanders, with success, at the Gallery Aymon in Ostend. Marries Donatella Bianchi.
+S’en suivra sa première exposition personnelle chez Bernard van Berg à Bruxelles. Ce dernier exploitait un magasin de fourrures avenue Louise, et acheta ses premières œuvres pour le soutenir financièrement.<br/><br/>
 
-# 1971-1974:
-Numerous exhibitions, both in Belgium and abroad.
+Il voyage ensuite à Paris et en Allemagne avec son ami Jacques Grootaert qui est son agent à cette époque.<br/><br/>
 
-# 1973:
-Moves to Flanders. Makes graphics and sculptures during a short period. Makes about 50 etchings and sculpts a number of large nudes in white Carrara marble.
+En 1971, sa première exposition en Flandre à la galerie Aymon à Ostende connaît un vif succès. S’ensuivent de nombreuses expositions en Belgique et à l’étranger.<br/><br/>
 
-# 1975:
-Meets Guy Pieters, who will be his agent for 30 years. During this time, he regularly meets up with many big names in the art scene at Guy Pieters. These contacts are at the origin of a fast evolution in his work. The evenings in Knokke-Le Zoute following art openings with Karel Appel, Christo, Jean Tinguely, Niki de Saint-Phalle, Arman, Corneille and many others remain memorable.
+Il déménage en Flandre en 1973, pratique la gravure et la sculpture pendant une courte période. Il grave une 50aine d’eaux-fortes et sculpte quelques grands nus en marbre de Carrare.<br/><br/>
 
-# 1980:
-In the early 80s, a new artistic phase sets it. It is the era of the  “façades”: at first photographically realistic, but soon covered with graffiti and tags. These art works are the predecessor with a 25year lead, of the “street art” which is so popular today.
+En 1975, il rencontre Guy Pieters qui sera son marchand pendant 30 ans. Tout au long de ces années, il rencontre les plus grands noms de l’art contemporain chez Guy Pieters et ces contacts feront évoluer sans cesse son propre travail. Citons entre autres Karel Appel, Christo, Jean Tinguely, Niki de Saint-Phalle, Arman, Corneille et bien d'autres qui lui rappellent les soirées mémorables d'après vernissages à Knokke le Zoute.<br/><br/>
 
-# 1984:
-Birth of his son Mathieu. Around 1987, the graffiti façades make room for very poetic paintings, inspired by drawings made by autistic children and mentally handicapped adults, whom he visits regularly in specialised institutions.
+Au début des années 80 une nouvelle rupture artistique s’annonce. C’est la période dite des ‘’façades’’ d’abord très photoréalistes, mais bientôt recouvertes de graffiti et de tags. Les œuvres de cette période annoncent 30 ans plus tôt le ‘’street art‘’. Fin des années 80, les façades disparaissent peu à peu, pour laisser la place à un art poétique inspiré par des dessins d’enfants autistes ou handicapés mentaux qu’il visite très souvent dans des centres spécialisés, et qui lui rappellent sa propre enfance difficile et solitaire dont il n’a pas encore fini de chasser les fantômes aujourd’hui.<br/><br/>
 
-# 1984:
-His adoptive father Alphonse Faymonville passes away.<br/><br/>
+En 1984, son père adoptif, Alphonse Faymonville, décède.A partir de cette période c’est la rupture définitive avec sa mère Maria qu’il n’a jamais revue. Il expose à présent dans le monde entier et beaucoup de musées acquièrent ses œuvres. Le Ludwig Museum en Allemagne consacre une exposition à sa série d’œuvres intitulée “les prisonniers’’ en 1988. Onze tableaux de Silvain sont acquis par le Ludwig Museum.<br/><br/>
 
-From this time on, he breaks with Maria, his mother, whom he will never meet again.<br/><br/>
+Depuis 2002 et jusqu’à jour, Silvain produit des œuvres à l’encre acrylique noire, avec au centre du tableau une figure d’un rouge écarlate, qui représente tantôt un immense lapin, un éléphant, la tête d’une mère imaginaire,un Mickey Mouse, le fonds de l’œuvre étant truffé d’objets disparates, jouets cassés, avions, couteaux, et où apparaissent souvent des phrases courtes, parfois choquantes, d’une poésie désabusée où des mots comme ‘’mutti’’ ou ‘’peur’’ reviennent inlassablement.<br/><br/>
 
-Numerous exhibitions all over the world.<br/><br/>
+En 2019, Martine Ehmer devient son agent.<br/><br/>
 
-Many musea in Belgium and abroad purchase his work.<br/><br/>
+Et au début de cette même année, les articles se multiplient dans les médias belges, français et chinois au sujet du plagiat de Christian Silvain par un artiste chinois de renom, Ye Yongqing. Ce dernier plagie Christian Silvain depuis plus de 30 ans. Au détour d’une exposition, il découvre les œuvres originales et s’en inspire très fortement au point de les copier. Le style mais aussi de nombreux symboles caractéristiques des toiles de Christian Silvain se retrouvent ainsi chez Ye Yongqing :« l’oiseau, le nid, la cage, la croix rouge, l’avion... ». Parfois, seuls quelques détails permettent de différencier les deux artistes. L’affaire fait grand bruit en Chine où Ye Yongqing est accusé d’escroquerie par des clients. Le peuple chinois se considère offensé par les agissements de celui-ci et plaide en faveur de Silvain, les témoignages de soutien affluent.<br/><br/>
 
-The Ludwig Museum in Germany dedicates an exhibition to his series of paintings “the prisoners”, with catalogue in 1988. 11 of Silvain’s paintings are purchased by the Ludwig Museum.<br/><br/>
+Mais l’artiste belge ne se laisse pas ébranler par l’affaire, il continue à produire dans son atelier de Kluisbergen et de nombreuses expositions sont attendues à Bruxelles, en France et en Chine.<br/><br/>
 
-In the early years 2000, Jos Depypere becomes his new agent. As from 2002 Silvain makes paintings with one or more large figures in the middle, with black acryl paint, then white, later blue and then also in scarlet red ink. An imagined mother, a Mickey Mouse, a huge rabbit, an elephant. The background is filled with the most diverse objects, broken toys, aeroplanes, knives...<br/><br/>
+Silvain a exposé dans des galeries d’art du monde entier, notamment à la Galerie Guy Pieters en Belgique, à la Magna Galerie à New York, à la Fondation Vasarely à Aix en Provence,à la Galerie du Centre à Paris, Musée Ludwig en Allemagne,Galerie de Laive à Amsterdam.<br/><br/>
 
-In between, short sentences, sometimes shocking, sometimes disillusioned poetry or words that keep coming back “mutti” “rien” “peur”...<br/><br/>
+Les oeuvres de Silvain ont été exposées dans plusieurs foires d’art en Europe et aux États-Unis. Silvain est représenté dans plus de 70 musées et de collections publiques à Bruxelles, à Tel Aviv, au musée Ludwig, à Prague, à Vienne, à Ottawa, à Amsterdam, à Düsseldorf, à Nice et ailleurs.<br/><br/>
 
-Until today, some thirty books and catalogues of Silvain’s work have been publised.
-The Silvain Foundation was established in 1992 and owns 475 pieces, from childhood until today.<br/><br/>
+Une trentaine de livres et catalogues sur son œuvre ont été édités jusqu’à ce jour. La fondation Christian Silvain fut créée en 1992 et possède environ 475 œuvres, regroupant des tableaux de toutes les périodes, depuis son enfance à aujourd’hui. Ses artistes préférés sont Chagall, Alechinsky, et son père spirituel Paul Devaux.<br/><br/>
 
-He has a special love for the work of Chagall,  Alechinsky and his spiritual father Paul Delvaux. Silvain lives in Kluisbergen (Belgium) with his partner Liselot and works 10 to 12 hours a day, well aware that time will be too short to tell us everything...
+Il vit à Kluisbergen (Belgique) et travaille 10 à 12 heures par jour, sachant déjà que de toutes façons il n’aura pas le temps de tout nous raconter...

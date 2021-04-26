@@ -15,17 +15,14 @@ tab1: |
 tab2: |
   ## Members of the Foundation
 
-  - Mr. Luc Glorieux – President
-  - Mr. Karl-Heinz Klinkenberg
+  - Ms. Julie de Bleeckere – President
+  - Ms. Claudia Niessen
   - Ms. Isabelle Weykmans
+  - Ms. Martine Ehmer 
   - Mr. Jos Depypere
-  - Mr. Norbert Kreusch - Inventory Management
-  - Ms. Liselot-Patricia Vandewiele
-  - Mr. Peter Carbonez - Cashier
   - Mr. Frank Ghys - jurist
-  - Ms. Florence Rasson - Inventory Management
-  - Mr. Didier Muylle - Secretary
-  - Mr. Andrew Verschetze
+  - Mr. Didier Muylle 
+  - Mr. Andrew Verschetzeet 
 
 tab3: |
   ## Norbert Kreusch, author of the catalogue raisonné

@@ -17,6 +17,8 @@ title: News
 - Affordable Art Fair, Brussel (B),  26-29 Februari 2016
 - Group Show met L’atlas, Jef Aérosol, Jonone; Galerie Martine Ehmer - Bruxelles
 - Presentation Permanente; TW gallery à Liège
+- Exposition permanente Galerie Martine Ehmer 
+- Expo Eupen "Memories of Angels" octobre 2020
 
 
 ## Catalogue raisonné
