@@ -54,6 +54,10 @@ header {
   }
 }
 
+/* custom */
+.btn {
+  @apply bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded;
+}
 /* components */
 .app-viewer,
 .tab-nav {
@@ -297,5 +301,77 @@ header {
       grid-template-columns: 240px 1fr;
     }
   }
+}
+
+.nested-tab--container {
+  @apply px-4;
+
+  & .tab-nav {
+    @apply h-auto;
+    &:last-child {
+      @apply mb-8;
+    }
+  }
+  & .tab-nav--tabs {
+    @apply justify-start;
+    background-color: #3b5997;
+  }
+  & .tab-nav--contents {
+    @apply p-4;
+  }
+  & .tab-nav--link {
+    @apply text-xs;
+  }
+  & .tab-nav--tabs.tab-h .tab-nav--item {
+    /* flex: 0 0 auto;
+    margin: 0; */
+    flex: 1 0 20%;
+    @screen xl {
+      flex: 1 0 0%;
+    }
+    @screen 2xl {
+      flex: 1 0 9%;
+      margin: 0;
+    }
+
+    &:last-child::after {
+      content: "";
+      display: inherit;
+      background-color: #906;
+    }
+  }
+
+  & .nuxt-content {
+    @apply flex flex-wrap;
+
+    & h2,
+    & p {
+      @apply flex justify-center items-center;
+    }
+
+    & h2 {
+      flex: 1 1 100%;
+      @apply px-16 py-8 mr-4 text-2xl;
+      @screen xl {
+        flex: 1 1 0%;
+        @apply py-16;
+      }
+
+      & a {
+        @apply hidden;
+      }
+    }
+    & p {
+      flex: 1 1 100%;
+      @screen xl {
+        flex: 2 1 0%;
+      }
+    }
+  }
+}
+
+/* starnge issue fix */
+.nested-tab--container ~ .tab-nav--contents {
+  display: none;
 }
 </style>

@@ -24,7 +24,8 @@ export default {
       pageTitle: "Bibliography",
       tabTitle: "",
       config: {
-        navDirection: "v"
+        navDirection: "v",
+        defautTabIndex: 0 // TODO: options not work
       }
     };
   },
