@@ -13,25 +13,41 @@
         v-on:tabChanged="setActive"
         :class="'tab-' + options.navDirection"
       ></tab-nav-item>
-      <!-- contents -->
-      <template v-if="activeItemIndex === 3">
-        <div class="tab-nav--contents nested-tab--container">
-          <TabNav
-            v-for="(tabnav, index) in tabSolo"
-            :key="index"
-            :dataSource="tabnav"
-          ></TabNav>
-        </div>
-      </template>
 
+      <!-- contents -->
+      <!-- <template v-if="nested.isNestedContent">
+        <transition name="fade" mode="out-in">
+          <div class="tab-nav--contents nested-tab--container">
+            <TabNav
+              v-for="(tabnav, index) in nested.current"
+              :key="index"
+              :dataSource="tabnav"
+            ></TabNav>
+          </div>
+        </transition>
+      </template> -->
+
+      <template v-if="activeItemIndex === 3">
+        <transition name="fade" mode="out-in">
+          <div class="tab-nav--contents nested-tab--container">
+            <TabNav
+              v-for="(tabnav, index) in tabSolo"
+              :key="index"
+              :dataSource="tabnav"
+            ></TabNav>
+          </div>
+        </transition>
+      </template>
       <template v-if="activeItemIndex === 4">
-        <div class="tab-nav--contents nested-tab--container">
-          <TabNav
-            v-for="(tabnav, index) in tabGroup"
-            :key="index"
-            :dataSource="tabnav"
-          ></TabNav>
-        </div>
+        <transition name="fade" mode="out-in">
+          <div class="tab-nav--contents nested-tab--container">
+            <TabNav
+              v-for="(tabnav, index) in tabGroup"
+              :key="index"
+              :dataSource="tabnav"
+            ></TabNav>
+          </div>
+        </transition>
       </template>
 
       <template v-else>
@@ -65,6 +81,7 @@ export default {
     const solo2 = await loadSlugPage("/exhibs/solo", "solo-2", context);
     const group1 = await loadSlugPage("/exhibs/group", "group-1", context);
     const group2 = await loadSlugPage("/exhibs/group", "group-2", context);
+
     return {
       page,
       tabSolo: [solo1[0], solo2[0]],
@@ -77,7 +94,8 @@ export default {
       pageTitle: "The Artist",
       tabTitle: "",
       config: {
-        navDirection: "v"
+        navDirection: "v",
+        defautTabIndex: 0
       },
       // tabnav data
       activeItemIndex: 0,
@@ -86,6 +104,8 @@ export default {
       list: [],
       options: {},
       nested: {
+        isNestedContent: false,
+        current: [],
         solo: [],
         group: []
       }
@@ -98,6 +118,22 @@ export default {
     setActive(index) {
       this.activeItemIndex = index;
       this.titleSelected = this.list[this.activeItemIndex].title;
+      this.nested.isNestedContent = false;
+
+      if (index === 3 || index === 4) {
+        // console.log(">>UPDATE NESTED TABS VALUES");
+        this.nested.isNestedContent = true;
+        this.nested.current = this.getActiveNestedTabNav(index);
+        // console.log(this.nested);
+      }
+    },
+    getActiveNestedTabNav(tabIndex) {
+      switch (tabIndex) {
+        case 3:
+          return this.tabSolo;
+        case 4:
+          return this.tabGroup;
+      }
     },
     createDataSource(data) {
       let res = [];
@@ -115,6 +151,17 @@ export default {
       return res;
     }
   },
+  mounted() {
+    // 1 inverted items order from ASC to DESC
+    this.tabSolo.reverse(); // reverse() method is desctructive, it changes the original array
+    this.tabSolo.forEach(content => {
+      content.tabs.reverse();
+    });
+    this.tabGroup.reverse(); // reverse() method is desctructive, it changes the original array
+    this.tabGroup.forEach(content => {
+      content.tabs.reverse();
+    });
+  },
   created() {
     // abord initialisation if tabnav is false
     if (this.page.hasOwnProperty("tabnav") && !this.page.tabnav) return;
@@ -123,39 +170,17 @@ export default {
     this.options = this.config;
     this.titleSelected = this.list[this.activeItemIndex].title;
 
-    // this.tabSolo.forEach(tabContnet => {
-
-    // });
-    this.nested.solo.push(this.createDataSource(this.tabSolo[0]));
-    this.nested.solo.push(this.createDataSource(this.tabSolo[1]));
-    this.nested.group.push(this.createDataSource(this.tabGroup[0]));
-    this.nested.group.push(this.createDataSource(this.tabGroup[1]));
+    // const newArray = this.tabSolo.reverse();
+    // 2. Optimize nested array process
+    this.tabSolo.forEach(tabContent => {
+      this.nested.solo.push(tabContent);
+    });
+    this.tabGroup.forEach(tabContent => {
+      this.nested.group.push(tabContent);
+    });
+    this.nested.current = this.getActiveNestedTabNav(this.activeItemIndex);
   }
 };
 </script>
 
-<style lang="postcss">
-.nested-tab--container {
-  @apply px-4;
-
-  & .tab-nav {
-    @apply h-auto;
-  }
-  & .tab-nav--tabs.tab-h .tab-nav--item {
-    flex: 0 0 auto;
-    margin: 0;
-  }
-  & .tab-nav--tabs {
-    @apply justify-start;
-    background-color: #3b5997;
-  }
-  & .tab-nav--link {
-    @apply text-xs;
-  }
-}
-
-/* starnge issue fix */
-.nested-tab--container ~ .tab-nav--contents {
-  display: none;
-}
-</style>
+<style lang="postcss"></style>
