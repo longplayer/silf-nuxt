@@ -1,6 +1,7 @@
 # Website refresh
 
---- This is an abandoned project ---
+**This is an abandoned project**
+
 Conversion of a website created with Adobe Muse to NuxtJS (Static)
 
 ## Build Setup
