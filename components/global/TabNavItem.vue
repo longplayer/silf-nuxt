@@ -21,13 +21,34 @@ export default {
     list: {
       type: Array,
       required: true
+    },
+    options: {
+      type: Object
     }
   },
+  // asyncData(context){
+  //   return {
+  //   }
+  // },
   data() {
     return {
       activeItemIndex: 0
     };
   },
+  mounded() {
+    // console.log("options TYPE is : ", this.options);
+    if (this.options.defaultTabIndex) {
+      this.activeItemIndex = this.options.defaultTabIndex;
+      // console.log("Open index : ", this.activeItemIndex);
+    }
+  },
+  // created() {},
+  // computed: {
+  //   computedActiveIndex(){
+  //     this.activeItemIndex = this.options.defaultTabIndex;
+  //     return this.activeItemIndex;
+  //   }
+  // },
   methods: {
     tabChanged(index) {
       this.activeItemIndex = index;

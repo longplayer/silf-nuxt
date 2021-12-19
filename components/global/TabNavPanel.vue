@@ -24,7 +24,7 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 .tab-nav--contents {
   @apply px-8 pb-10 w-full h-full;
   background-color: inherit;

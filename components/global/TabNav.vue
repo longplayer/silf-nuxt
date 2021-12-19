@@ -3,6 +3,7 @@
     <!-- navigation -->
     <tab-nav-item
       :list="list"
+      :options="options"
       v-on:tabChanged="setActive"
       :class="'tab-' + options.navDirection"
     ></tab-nav-item>
@@ -30,7 +31,8 @@ export default {
       type: Object,
       default: () => {
         return {
-          navDirection: "h"
+          navDirection: "h",
+          defautTabIndex: 0
         };
       }
     }
@@ -78,8 +80,10 @@ export default {
     });
 
     this.options = this.tabnavOpt;
+    this.activeItemIndex = this.options.defautTabIndex;
     this.titleSelected = this.list[this.activeItemIndex].title;
     this.emitTitle(this.titleSelected);
+    // console.log(">> SHOW Index " + this.activeItemIndex, this.titleSelected);
   }
 };
 </script>
